@@ -64,14 +64,7 @@
 			</div>
 			<!--sidebar menu toggler end -->
 			<!--logo start -->
-			<div class="ttr-logo-box">
-				<div>
-					<a href="index.php" class="ttr-logo">
-						<img class="ttr-logo-mobile" alt="" src="assets/images/logo-mobile.png" width="30" height="30">
-						<img class="ttr-logo-desktop" alt="" src="assets/images/logo-white.png" width="160" height="27">
-					</a>
-				</div>
-			</div>
+			
 			<!--logo end -->
 			<div class="ttr-header-menu">
 				<!-- header left menu start -->
@@ -85,7 +78,7 @@
 							<ul>
 								<li><a href="../courses.php">Our Courses</a></li>
 								<li><a href="../event.php">New Event</a></li>
-								<li><a href="../membership.php">Membership</a></li>
+								<li><a href="../membership.php">Scholarships</a></li>
 							</ul>
 						</div>
 					</li>
@@ -234,16 +227,7 @@
 	<div class="ttr-sidebar">
 		<div class="ttr-sidebar-wrapper content-scroll">
 			<!-- side menu logo start -->
-			<div class="ttr-sidebar-logo">
-				<a href="#"><img alt="" src="assets/images/logo.png" width="122" height="27"></a>
-				<!-- <div class="ttr-sidebar-pin-button" title="Pin/Unpin Menu">
-					<i class="material-icons ttr-fixed-icon">gps_fixed</i>
-					<i class="material-icons ttr-not-fixed-icon">gps_not_fixed</i>
-				</div> -->
-				<div class="ttr-sidebar-toggle-button">
-					<i class="ti-arrow-left"></i>
-				</div>
-			</div>
+			
 			<!-- side menu logo end -->
 			<!-- sidebar menu start -->
 			<nav class="ttr-sidebar-navi">
