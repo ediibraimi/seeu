@@ -4,7 +4,7 @@
 				<div class="container">
 					<div class="d-flex align-items-stretch">
 						<div class="pt-logo mr-auto">
-							<a href="index.php"><img src="assets/images/logo-white.png" alt=""/></a>
+							<!-- <a href="index.php"><img src="assets/images/logo-white.png" alt=""/></a> -->
 						</div>
 						<div class="pt-social-link">
 							<ul class="list-inline m-a0">

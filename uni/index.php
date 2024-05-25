@@ -14,7 +14,7 @@
 	<meta name="description" content="EduChamp : Education HTML Template" />
 	
 	<!-- OG -->
-	<meta property="og:title" content="University : Education HTML Template" />
+	<meta property="og:title" content="EduChamp : Education HTML Template" />
 	<meta property="og:description" content="EduChamp : Education HTML Template" />
 	<meta property="og:image" content="" />
 	<meta name="format-detection" content="telephone=no">
@@ -24,7 +24,7 @@
 	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
 	
 	<!-- PAGE TITLE HERE ============================================= -->
-	<title>SEEU </title>
+	<title>EduChamp : Education HTML Template </title>
 	
 	<!-- MOBILE SPECIFIC ============================================= -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -63,8 +63,8 @@
 				<div class="row d-flex justify-content-between">
 					<div class="topbar-left">
 						<ul>
-							<li><a href="faq-1.php"><i class="fa fa-question-circle"></i>Ask a Question</a></li>
-							<li><a href="javascript:;"><i class="fa fa-envelope-o"></i>SEEU@website.com</a></li>
+							<li><a href="faq-1.html"><i class="fa fa-question-circle"></i>Ask a Question</a></li>
+							<li><a href="javascript:;"><i class="fa fa-envelope-o"></i>University@gmail.com</a></li>
 						</ul>
 					</div>
 					<div class="topbar-right">
@@ -73,11 +73,10 @@
 								<select class="header-lang-bx">
 									<option data-icon="flag flag-uk">English UK</option>
 									<option data-icon="flag flag-us">English US</option>
-									
 								</select>
 							</li>
-							<li><a href="login.php">Login</a></li>
-							<li><a href="register.php">Register</a></li>
+							<li><a href="login.html">Login</a></li>
+							<li><a href="register.html">Register</a></li>
 						</ul>
 					</div>
 				</div>
@@ -86,10 +85,7 @@
 		<div class="sticky-header navbar-expand-lg">
             <div class="menu-bar clearfix">
                 <div class="container clearfix">
-					<!-- Header Logo ==== -->
-					<div class="menu-logo">
-						<a href="index.php"><img src="assets/images/logo-white.png" alt=""></a>
-					</div>
+					
 					<!-- Mobile Nav Button ==== -->
                     <button class="navbar-toggler collapsed menuicon justify-content-end" type="button" data-toggle="collapse" data-target="#menuDropdown" aria-controls="menuDropdown" aria-expanded="false" aria-label="Toggle navigation">
 						<span></span>
@@ -117,95 +113,7 @@
 						<span id="search-remove"><i class="ti-close"></i></span>
                     </div>
 					<!-- Navigation Menu ==== -->
-                    <div class="menu-links navbar-collapse collapse justify-content-start" id="menuDropdown">
-						<div class="menu-logo">
-							<a href="index.php"><img src="assets/images/logo.png" alt=""></a>
-						</div>
-                        <ul class="nav navbar-nav">	
-							<li class="active"><a href="index.php" href="javascript:;">Home</a>
-								
-							</li>
-							<li><a href="blog.php" href="javascript:;">Blog</a>
-								<ul class="sub-menu">
-									
-									
-									<li><a href="blog-details.php">Blog Details</a></li>
-								</ul>
-							<li><a href="javascript:;">Pages <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu">
-									<li><a href="about.php" href="javascript:;">About</a>
-										
-									</li>
-									
-									<li><a href="faq.php" href="javascript:;">FAQ</a>
-										
-									</li>
-									<li><a href="contact.php" href="javascript:;">Contact Us</a>
-										
-									</li>
-									<li><a href="portfolio.php">Portfolio</a></li>
-									<li><a href="profile.php">Profile</a></li>
-									<li><a href="membership.php">Membership</a></li>
-									<li><a href="error-404.php">404 Page</a></li>
-
-									<li><a href="javascript:;">Event<i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
-											<li><a href="event.php">Event</a></li>
-											<li><a href="events-details.php">Events Details</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li class="add-mega-menu"><a href="javascript:;">Our Courses <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu add-menu">
-									<li class="add-menu-left">
-										<h5 class="menu-adv-title">Our Courses</h5>
-										<ul>
-											<li><a href="courses.php">Courses </a></li>
-											<li><a href="courses-details.php">Courses Details</a></li>
-											<li><a href="profile.php">Instructor Profile</a></li>
-											<li><a href="event.php">Upcoming Event</a></li>
-											<li><a href="membership.php">Membership</a></li>
-										</ul>
-									</li>
-									<li class="add-menu-right">
-										<img src="assets/images/adv/adv.jpg" alt=""/>
-									</li>
-								</ul>
-							</li>
-							
-							</li>
-							<li class="nav-dashboard"><a href="javascript:;">Dashboard <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu">
-									<li><a href="admin/index.php">Dashboard</a></li>
-									<li><a href="admin/add-listing.php">Add Listing</a></li>
-									<li><a href="admin/bookmark.php">Bookmark</a></li>
-									<li><a href="admin/courses.php">Courses</a></li>
-									<li><a href="admin/review.php">Review</a></li>
-									<li><a href="admin/teacher-profile.php">Teacher Profile</a></li>
-									<li><a href="admin/user-profile.php">User Profile</a></li>
-									<li><a href="javascript:;">Calendar<i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
-											<li><a href="admin/basic-calendar.php">Basic Calendar</a></li>
-											<li><a href="admin/list-view-calendar.php">List View Calendar</a></li>
-										</ul>
-									</li>
-									<li><a href="javascript:;">Mailbox<i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
-											<li><a href="admin/mailbox.php">Mailbox</a></li>
-											<li><a href="admin/mailbox-compose.php">Compose</a></li>
-											<li><a href="admin/mailbox-read.php">Mail Read</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-						</ul>
-						<div class="nav-social-link">
-							<a href="javascript:;"><i class="fa fa-facebook"></i></a>
-							<a href="javascript:;"><i class="fa fa-google-plus"></i></a>
-							<a href="javascript:;"><i class="fa fa-linkedin"></i></a>
-						</div>
-                    </div>
+                    <?php include_once("navbar.php") ?>
 					<!-- Navigation Menu END ==== -->
                 </div>
             </div>
@@ -219,7 +127,7 @@
 			<div id="rev_slider_486_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="news-gallery36" data-source="gallery" style="margin:0px auto;background-color:#ffffff;padding:0px;margin-top:0px;margin-bottom:0px;">
 				<!-- START REVOLUTION SLIDER 5.3.0.2 fullwidth mode -->
 				<div id="rev_slider_486_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.3.0.2">
-					<>	<!-- SLIDE  -->
+					<ul>	<!-- SLIDE  -->
 						<li data-index="rs-100" 
 						data-transition="parallaxvertical" 
 						data-slotamount="default" 
@@ -228,7 +136,7 @@
 						data-easein="default" 
 						data-easeout="default" 
 						data-masterspeed="default" 
-						data-thumb="error-404.php" 
+						data-thumb="error-404.html" 
 						data-rotate="0" 
 						data-fstransition="fade" 
 						data-fsmasterspeed="1500" 
@@ -533,8 +441,6 @@
 								data-paddingbottom="[12,12,12,12]"
 								data-paddingleft="[30,35,35,15]"
 								style="z-index: 8; white-space: nowrap; outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer; border-radius:30px;">CONTACT US</div>
-							
-								
 						</li>
 						<!-- SLIDE  -->
 					</ul>
@@ -922,7 +828,7 @@
 										<li><a href="#"><i class="fa fa-calendar"></i>Jan 02 2019</a></li>
 										<li><a href="#"><i class="fa fa-user"></i>By William</a></li>
 									</ul>
-									<h5 class="post-title"><a href="blog-details.php">This Story Behind Education Will Haunt You Forever.</a></h5>
+									<h5 class="post-title"><a href="blog-details.html">This Story Behind Education Will Haunt You Forever.</a></h5>
 									<p>Knowing that, you’ve optimised your pages countless amount of times, written tons.</p>
 									<div class="post-extra">
 										<a href="#" class="btn-link">READ MORE</a>
@@ -941,7 +847,7 @@
 										<li><a href="#"><i class="fa fa-calendar"></i>Feb 05 2019</a></li>
 										<li><a href="#"><i class="fa fa-user"></i>By John</a></li>
 									</ul>
-									<h5 class="post-title"><a href="blog-details.php">What Will Education Be Like In The Next 50 Years?</a></h5>
+									<h5 class="post-title"><a href="blog-details.html">What Will Education Be Like In The Next 50 Years?</a></h5>
 									<p>As desperate as you are right now, you have done everything you can on your.</p>
 									<div class="post-extra">
 										<a href="#" class="btn-link">READ MORE</a>
@@ -960,7 +866,7 @@
 										<li><a href="#"><i class="fa fa-calendar"></i>April 14 2019</a></li>
 										<li><a href="#"><i class="fa fa-user"></i>By George</a></li>
 									</ul>
-									<h5 class="post-title"><a href="blog-details.php">Master The Skills Of Education And Be.</a></h5>
+									<h5 class="post-title"><a href="blog-details.html">Master The Skills Of Education And Be.</a></h5>
 									<p>You will see in the guide all my years of valuable experience together with.</p>
 									<div class="post-extra">
 										<a href="#" class="btn-link">READ MORE</a>
