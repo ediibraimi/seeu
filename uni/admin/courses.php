@@ -1,20 +1,11 @@
 <?php
-    session_start();
+include_once('config.php');
 
-    include_once('config.php');
-
-    if(empty($_SESSION['username'])) {
-        header("Location: login.php");
-    }
-
-    $sql = "SELECT * FROM course"; // corrected table name
-
-    $selectCourse = $conn->prepare($sql);
-
-    $selectCourse->execute();
-    $courseData = $selectCourse->fetchAll();
+$sql = "SELECT * FROM course";
+$stmt = $conn->prepare($sql);
+$stmt->execute();
+$courseData = $stmt->fetchAll();
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -324,7 +315,7 @@
 					<li>
 						<a href="add-listing.php" class="ttr-material-button">
 							<span class="ttr-icon"><i class="ti-layout-accordion-list"></i></span>
-		                	<span class="ttr-label"></span>
+		                	<span class="ttr-label">Add listing</span>
 		                </a>
 		            </li>
 					<li>
