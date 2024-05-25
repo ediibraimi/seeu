@@ -21,11 +21,7 @@
 				<li><a href="contact.php" href="javascript:;">Contact Us</a>
 
 				</li>
-				
-				<li><a href="profile.php">Profile</a></li>
-				<li><a href="membership.php">Membership</a></li>
-				<li><a href="error-404.php">404 Page</a></li>
-
+				<li><a href="membership.php">Scholarships</a></li>
 				<li><a href="javascript:;">Event<i class="fa fa-angle-right"></i></a>
 					<ul class="sub-menu">
 						<li><a href="event.php">Event</a></li>
@@ -42,9 +38,9 @@
 					<ul>
 						<li><a href="courses.php">Courses </a></li>
 						<li><a href="courses-details.php">Courses Details</a></li>
-						<li><a href="profile.php">Instructor Profile</a></li>
+						
 						<li><a href="event.php">Upcoming Event</a></li>
-						<li><a href="membership.php">Membership</a></li>
+						<li><a href="membership.php">Scholarships</a></li>
 					</ul>
 				</li>
 				<li class="add-menu-right">
