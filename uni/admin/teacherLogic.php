@@ -11,7 +11,7 @@ $city = $_POST['city'];
 $state = $_POST['state'];
 $Postcode = $_POST['Postcode'];
 
-echo "1";
+
 
 // Check if any field is empty
 if (
