@@ -14,7 +14,7 @@
 	<meta name="description" content="EduChamp : Education HTML Template" />
 	
 	<!-- OG -->
-	<meta property="og:title" content="EduChamp : Education HTML Template" />
+	<meta property="og:title" content="University : Education HTML Template" />
 	<meta property="og:description" content="EduChamp : Education HTML Template" />
 	<meta property="og:image" content="" />
 	<meta name="format-detection" content="telephone=no">
@@ -24,7 +24,7 @@
 	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
 	
 	<!-- PAGE TITLE HERE ============================================= -->
-	<title>EduChamp : Education HTML Template </title>
+	<title>SEEU </title>
 	
 	<!-- MOBILE SPECIFIC ============================================= -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -64,7 +64,7 @@
 					<div class="topbar-left">
 						<ul>
 							<li><a href="faq-1.php"><i class="fa fa-question-circle"></i>Ask a Question</a></li>
-							<li><a href="javascript:;"><i class="fa fa-envelope-o"></i>Support@website.com</a></li>
+							<li><a href="javascript:;"><i class="fa fa-envelope-o"></i>SEEU@website.com</a></li>
 						</ul>
 					</div>
 					<div class="topbar-right">
@@ -73,6 +73,7 @@
 								<select class="header-lang-bx">
 									<option data-icon="flag flag-uk">English UK</option>
 									<option data-icon="flag flag-us">English US</option>
+									
 								</select>
 							</li>
 							<li><a href="login.php">Login</a></li>
@@ -121,19 +122,13 @@
 							<a href="index.php"><img src="assets/images/logo.png" alt=""></a>
 						</div>
                         <ul class="nav navbar-nav">	
-							<li class="active"><a href="javascript:;">Home <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu">
-									<li><a href="index.php">Home 1</a></li>
-									<li><a href="index-2.php">Home 2</a></li>
-								</ul>
+							<li class="active"><a href="index.php" href="javascript:;">Home</a>
+								
 							</li>
 							<li><a href="javascript:;">Pages <i class="fa fa-chevron-down"></i></a>
 								<ul class="sub-menu">
-									<li><a href="javascript:;">About<i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
-											<li><a href="about-1.php">About 1</a></li>
-											<li><a href="about-2.php">About 2</a></li>
-										</ul>
+									<li><a href="about.php" href="javascript:;">About</a>
+										
 									</li>
 									<li><a href="javascript:;">Event<i class="fa fa-angle-right"></i></a>
 										<ul class="sub-menu">
