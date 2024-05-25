@@ -317,9 +317,7 @@
 		                	<span class="ttr-arrow-icon"><i class="fa fa-angle-down"></i></span>
 		                </a>
 		                <ul>
-		                	<li>
-		                		<a href="user-profile.php" class="ttr-material-button"><span class="ttr-label">User Profile</span></a>
-		                	</li>
+		                	
 		                	<li>
 		                		<a href="teacher-profile.php" class="ttr-material-button"><span class="ttr-label">Teacher Profile</span></a>
 		                	</li>

@@ -7,9 +7,7 @@
 								
 							</li>
 							<li><a href="blog.php" href="javascript:;">Blog </a>
-								<ul class="sub-menu">
-									<li><a href="blog-details.php">Blog Details</a></li>
-								</ul>
+								
 							</li>
 							<li><a href="javascript:;">Pages <i class="fa fa-chevron-down"></i></a>
 								<ul class="sub-menu">

@@ -318,11 +318,9 @@
 		                </a>
 		                <ul>
 		                	<li>
-		                		<a href="user-profile.php" class="ttr-material-button"><span class="ttr-label">User Profile</span></a>
+		                		<a href="teacherDashboard.php" class="ttr-material-button"><span class="ttr-label">Teacher Dashboard</span></a>
 		                	</li>
-		                	<li>
-		                		<a href="teacher-profile.php" class="ttr-material-button"><span class="ttr-label">Teacher Profile</span></a>
-		                	</li>
+		                	
 		                </ul>
 		            </li>
 		            <li class="ttr-seperate"></li>
