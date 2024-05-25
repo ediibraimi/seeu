@@ -182,7 +182,7 @@ $courseData = $selectCourse->fetchAll();
           <div class="col-md-6 col-lg-4 col-sm-6 m-b30">
             <div class="cours-bx">
               <div class="action-box">
-                <img src="assets/images/<?php echo $course['image']; ?>" alt="">
+                <img src="assets/images/courses/<?php echo $course['image']; ?>" alt="">
                 <a href="#" class="btn">Read More</a>
               </div>
               <div class="info-bx text-center">

@@ -28,7 +28,7 @@ if (isset($_POST['submit'])) {
 
     // Execute the query
     if ($prep->execute()) {
-        header('Location: courses.php');
+        header('Location: coursesView.php');
         exit;
     } else {
         echo "Error updating course: " . $prep->errorInfo()[2];
