@@ -94,7 +94,7 @@
 									<input type="checkbox" class="custom-control-input" id="customControlAutosizing">
 									<label class="custom-control-label" for="customControlAutosizing">Remember me</label>
 								</div>
-								<a href="forget-password.php" class="ml-auto">Forgot Password?</a>
+								
 							</div>
 						</div>
 						<div class="col-lg-12 m-b30">
