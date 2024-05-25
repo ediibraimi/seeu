@@ -46,9 +46,9 @@
 									<h5 class="footer-title">Company</h5>
 									<ul>
 										<li><a href="index.php">Home</a></li>
-										<li><a href="about-1.php">About</a></li>
-										<li><a href="faq-1.php">FAQs</a></li>
-										<li><a href="contact-1.php">Contact</a></li>
+										<li><a href="about.php">About</a></li>
+										<li><a href="faq.php">FAQs</a></li>
+										<li><a href="contact.php">Contact</a></li>
 									</ul>
 								</div>
 							</div>
@@ -56,8 +56,8 @@
 								<div class="widget footer_widget">
 									<h5 class="footer-title">Get In Touch</h5>
 									<ul>
-										<li><a href="http://educhamp.themetrades.com/admin/index.php">Dashboard</a></li>
-										<li><a href="blog-classic-grid.php">Blog</a></li>
+										<li><a href="admin/index.php">Dashboard</a></li>
+										<li><a href="blog.php">Blog</a></li>
 										<li><a href="portfolio.php">Portfolio</a></li>
 										<li><a href="event.php">Event</a></li>
 									</ul>
@@ -95,10 +95,6 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 text-center"> <a target="_blank" href="https://www.templateshub.net">Templates Hub</a></div>
-                </div>
-            </div>
+            
         </div>
     </footer>

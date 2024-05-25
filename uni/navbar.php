@@ -6,6 +6,11 @@
 							<li class="active"><a href="index.php" href="javascript:;">Home </a>
 								
 							</li>
+							<li><a href="blog.php" href="javascript:;">Blog </a>
+								<ul class="sub-menu">
+									<li><a href="blog-details.php">Blog Details</a></li>
+								</ul>
+							</li>
 							<li><a href="javascript:;">Pages <i class="fa fa-chevron-down"></i></a>
 								<ul class="sub-menu">
 									<li><a  href="about.php" href="javascript:;">About</a>
@@ -49,15 +54,7 @@
 									</li>
 								</ul>
 							</li>
-							<li><a href="javascript:;">Blog <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu">
-									<li><a href="blog-classic-grid.php">Blog Classic</a></li>
-									<li><a href="blog-classic-sidebar.php">Blog Classic Sidebar</a></li>
-									<li><a href="blog-list-sidebar.php">Blog List Sidebar</a></li>
-									<li><a href="blog-standard-sidebar.php">Blog Standard Sidebar</a></li>
-									<li><a href="blog-details.php">Blog Details</a></li>
-								</ul>
-							</li>
+							
 							<li class="nav-dashboard"><a href="javascript:;">Dashboard <i class="fa fa-chevron-down"></i></a>
 								<ul class="sub-menu">
 									<li><a href="admin/index.php">Dashboard</a></li>
