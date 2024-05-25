@@ -5,12 +5,12 @@
 
     $id = $_GET['id'];
 
-    $sql = "SELECT * FROM courses WHERE id=:id";
-    $selectCourses = $conn->prepare($sql);
-    $selectCourses->bindParam(':id', $id);
-    $selectCourses->execute();
+    $sql = "SELECT * FROM course WHERE id=:id";
+    $selectCourse= $conn->prepare($sql);
+    $selectCourse->bindParam(':id', $id);
+    $selectCourse->execute();
 
-    $courseData = $selectCourses ->fetch();
+    $courseData = $selectCourse ->fetch();
 ?>
 
 <!DOCTYPE html>
