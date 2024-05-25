@@ -53,20 +53,53 @@
 	<div id="loading-icon-bx"></div>
 	<div class="account-form">
 		<div class="account-head" style="background-image:url(assets/images/background/bg2.jpg);">
-			
+			<a href="index.php"><img src="assets/images/logo-white-2.png" alt=""></a>
 		</div>
 		<div class="account-form-inner">
 			<div class="account-container">
-				<div class="error-page">
-					<h3>Ooopps :(</h3>
-					<h2 class="error-title">404</h2>
-					<h5>The Page you were looking for, couldn't be found.</h5>
-					<p>The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
-					<div class="">
+				<div class="heading-bx left">
+					<h2 class="title-head">Sign Up <span>Now</span></h2>
+					<p>Login Your Account <a href="login.php">Click here</a></p>
+				</div>	
+				<form class="contact-bx" method="POST" action="signUpLogic.php">
+					<div class="row placeani">
+						<div class="col-lg-12">
+							<div class="form-group">
+								<div class="input-group">
+									<label>Your Name</label>
+									<input name="name1" type="text" required="" class="form-control">
+								</div>
+							</div>
+						</div>
 						
-						<a href="index.php" class="btn outline black">Back To Home</a>
+						<div class="col-lg-12">
+							<div class="form-group">
+								<div class="input-group">
+									<label>Surname</label>
+									<input name="surname1" type="text" required="" class="form-control">
+								</div>
+							</div>
+                        </div>
+						<div class="col-lg-12">
+							<div class="form-group">
+								<div class="input-group"> 
+									<label>Major</label>
+									<input name="major1" type="password" class="form-control" required="">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12 m-b30">
+							<button name="submit" type="submit" value="Submit" class="btn button-md">Sign Up</button>
+						</div>
+						<div class="col-lg-12">
+							<h6>Sign Up with Social media</h6>
+							<div class="d-flex">
+								<a class="btn flex-fill m-r5 facebook" href=""><i class="fa fa-facebook"></i>Facebook</a>
+								<a class="btn flex-fill m-l5 google-plus" href=""><i class="fa fa-google-plus"></i>Google Plus</a>
+							</div>
+						</div>
 					</div>
-				</div>
+				</form>
 			</div>
 		</div>
 	</div>
