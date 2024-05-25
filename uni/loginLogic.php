@@ -47,7 +47,7 @@
 					$_SESSION['is_admin'] = $data['is_admin'];
 
                     if($_SESSION['is_admin' == 'true']){
-                        header('Location: admin/index.php');
+                        header('Location: /admin/index.php');
                     }
                     else{
                         header('Location: index.php');
