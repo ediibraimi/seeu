@@ -24,7 +24,7 @@
 	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
 	
 	<!-- PAGE TITLE HERE ============================================= -->
-	<title>EduChamp : Education HTML Template </title>
+	<title>University </title>
 	
 	<!-- MOBILE SPECIFIC ============================================= -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -58,8 +58,8 @@
 				<div class="row d-flex justify-content-between">
 					<div class="topbar-left">
 						<ul>
-							<li><a href="faq-1.php"><i class="fa fa-question-circle"></i>Ask a Question</a></li>
-							<li><a href="javascript:;"><i class="fa fa-envelope-o"></i>Support@website.com</a></li>
+							<li><a href="faq.php"><i class="fa fa-question-circle"></i>Ask a Question</a></li>
+							<li><a href="javascript:;"><i class="fa fa-envelope-o"></i>University@gmail.com</a></li>
 						</ul>
 					</div>
 					<div class="topbar-right">
@@ -122,7 +122,7 @@
         <div class="page-banner ovbl-dark" style="background-image:url(assets/images/banner/banner1.jpg);">
             <div class="container">
                 <div class="page-banner-entry">
-                    <h1 class="text-white">Blog Classic Sidebar</h1>
+                    <h1 class="text-white">University Blog</h1>
 				</div>
             </div>
         </div>
@@ -375,15 +375,7 @@
 							</div>
 							<!-- blog grid END -->
 							<!-- Pagination -->
-							<div class="pagination-bx rounded-sm gray clearfix">
-								<ul class="pagination">
-									<li class="previous"><a href="#"><i class="ti-arrow-left"></i> Prev</a></li>
-									<li class="active"><a href="#">1</a></li>
-									<li><a href="#">2</a></li>
-									<li><a href="#">3</a></li>
-									<li class="next"><a href="#">Next <i class="ti-arrow-right"></i></a></li>
-								</ul>
-							</div>
+							
 							<!-- Pagination END -->
 						</div>
 						<!-- left part END -->
@@ -506,110 +498,7 @@
     <!-- Left & right section END -->
     <!-- Content END-->
 <!-- Footer ==== -->
-    <footer>
-        <div class="footer-top">
-			<div class="pt-exebar">
-				<div class="container">
-					<div class="d-flex align-items-stretch">
-						<div class="pt-logo mr-auto">
-							<a href="index.php"><img src="assets/images/logo-white.png" alt=""/></a>
-						</div>
-						<div class="pt-social-link">
-							<ul class="list-inline m-a0">
-								<li><a href="#" class="btn-link"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#" class="btn-link"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#" class="btn-link"><i class="fa fa-linkedin"></i></a></li>
-								<li><a href="#" class="btn-link"><i class="fa fa-google-plus"></i></a></li>
-							</ul>
-						</div>
-						<div class="pt-btn-join">
-							<a href="#" class="btn ">Join Now</a>
-						</div>
-					</div>
-				</div>
-			</div>
-            <div class="container">
-                <div class="row">
-					<div class="col-lg-4 col-md-12 col-sm-12 footer-col-4">
-                        <div class="widget">
-                            <h5 class="footer-title">Sign Up For A Newsletter</h5>
-							<p class="text-capitalize m-b20">Weekly Breaking news analysis and cutting edge advices on job searching.</p>
-                            <div class="subscribe-form m-b20">
-								<form class="subscription-form" action="http://educhamp.themetrades.com/demo/assets/script/mailchamp.php" method="post">
-									<div class="ajax-message"></div>
-									<div class="input-group">
-										<input name="email" required="required"  class="form-control" placeholder="Your Email Address" type="email">
-										<span class="input-group-btn">
-											<button name="submit" value="Submit" type="submit" class="btn"><i class="fa fa-arrow-right"></i></button>
-										</span> 
-									</div>
-								</form>
-							</div>
-                        </div>
-                    </div>
-					<div class="col-12 col-lg-5 col-md-7 col-sm-12">
-						<div class="row">
-							<div class="col-4 col-lg-4 col-md-4 col-sm-4">
-								<div class="widget footer_widget">
-									<h5 class="footer-title">Company</h5>
-									<ul>
-										<li><a href="index.php">Home</a></li>
-										<li><a href="about-1.php">About</a></li>
-										<li><a href="faq-1.php">FAQs</a></li>
-										<li><a href="contact-1.php">Contact</a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="col-4 col-lg-4 col-md-4 col-sm-4">
-								<div class="widget footer_widget">
-									<h5 class="footer-title">Get In Touch</h5>
-									<ul>
-										<li><a href="http://educhamp.themetrades.com/admin/index.php">Dashboard</a></li>
-										<li><a href="blog-classic-grid.php">Blog</a></li>
-										<li><a href="portfolio.php">Portfolio</a></li>
-										<li><a href="event.php">Event</a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="col-4 col-lg-4 col-md-4 col-sm-4">
-								<div class="widget footer_widget">
-									<h5 class="footer-title">Courses</h5>
-									<ul>
-										<li><a href="courses.php">Courses</a></li>
-										<li><a href="courses-details.php">Details</a></li>
-										<li><a href="membership.php">Membership</a></li>
-										<li><a href="profile.php">Profile</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-                    </div>
-					<div class="col-12 col-lg-3 col-md-5 col-sm-12 footer-col-4">
-                        <div class="widget widget_gallery gallery-grid-4">
-                            <h5 class="footer-title">Our Gallery</h5>
-                            <ul class="magnific-image">
-								<li><a href="assets/images/gallery/pic1.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic1.jpg" alt=""></a></li>
-								<li><a href="assets/images/gallery/pic2.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic2.jpg" alt=""></a></li>
-								<li><a href="assets/images/gallery/pic3.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic3.jpg" alt=""></a></li>
-								<li><a href="assets/images/gallery/pic4.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic4.jpg" alt=""></a></li>
-								<li><a href="assets/images/gallery/pic5.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic5.jpg" alt=""></a></li>
-								<li><a href="assets/images/gallery/pic6.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic6.jpg" alt=""></a></li>
-								<li><a href="assets/images/gallery/pic7.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic7.jpg" alt=""></a></li>
-								<li><a href="assets/images/gallery/pic8.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic8.jpg" alt=""></a></li>
-							</ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 text-center"><a target="_blank" href="https://www.templateshub.net">Templates Hub</a></div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php include_once("footer.php") ?>
     <!-- Footer END ==== -->
     <!-- scroll top button -->
     <button class="back-to-top fa fa-chevron-up" ></button>

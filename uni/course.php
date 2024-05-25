@@ -63,6 +63,8 @@
             </div>  
             
             <a href="coursesView.php" class="btn btn-primary"> + Add course</a>
+    <a href="courses.php" class="btn btn-secondary">View Courses</a>
+<hr>
             <div class="table-responsive">
                 <table class="table table-striped">
                     <thead>
