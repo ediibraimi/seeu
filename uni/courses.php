@@ -140,8 +140,6 @@ $courseData = $selectCourse->fetchAll();
     </header>
     <!-- header END ==== -->
     <!-- Content -->
-    <a href="coursesView.php" target="_blank" rel="noopener noreferrer">dfgh</a>
-	<a href="course.php" target="_blank" rel="noopener noreferrer">dfgh</a>
 	<div class="page-content bg-white">
     <!-- inner page banner -->
     <div class="page-banner ovbl-dark" style="background-image:url(assets/images/banner/banner3.jpg);">
@@ -162,59 +160,51 @@ $courseData = $selectCourse->fetchAll();
     </div>
     <!-- Breadcrumb row END -->
     <!-- inner page banner END -->
-    <div class="content-block">
+	<div class="content-block">
   <!-- About Us -->
   <div class="section-area section-sp1">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-3 col-md-4 col-sm-12 m-b30">
-        <!-- sidebar content here -->
-        <ul class="list-unstyled sidebar-links">
-          <li><a href="course.php" class="link-lg">View Courses</a></li>
-          <li><a href="coursesView.php" class="link-lg">Add Course</a></li>
-        </ul>
-      </div>
-      <div class="col-lg-9 col-md-8 col-sm-12">
-        <div class="row">
-          <?php foreach ($courseData as $course) { ?>
-          <div class="col-md-6 col-lg-4 col-sm-6 m-b30">
-            <div class="cours-bx">
-              <div class="action-box">
-                <img src="assets/images/courses/<?php echo $course['image']; ?>" alt="">
-                <a href="#" class="btn">Read More</a>
-              </div>
-              <div class="info-bx text-center">
-                <h5><a href="#" class="course-title"><?php echo $course['title']; ?></a></h5>
-                <span><?php echo $course['category']; ?></span>
-              </div>
-              <div class="cours-more-info">
-                <div class="review">
-                  <span><?php echo $course['review']; ?> Review</span>
-                  <ul class="cours-star">
-                    <?php for ($i = 0; $i < $course['review']; $i++) { ?>
-                    <li class="active"><i class="fa fa-star"></i></li>
-                    <?php } ?>
-                  </ul>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="row">
+            <?php foreach ($courseData as $course) { ?>
+            <div class="col-md-3 col-lg-3 col-sm-6 m-b30">
+              <div class="cours-bx">
+                <div class="action-box">
+                  <img src="assets/images/courses/<?php echo $course['image']; ?>" alt="">
+                  <a href="#" class="btn">Read More</a>
                 </div>
-                <div class="price">
-                  <?php if ($course['price'] == 0) { ?>
-                  <h5 class="free">Free</h5>
-                  <?php } else { ?>
-                  <del>$190</del>
-                  <h5>$<?php echo $course['price']; ?></h5>
-                  <?php } ?>
+                <div class="info-bx text-center">
+                  <h5><a href="#" class="course-title"><?php echo $course['title']; ?></a></h5>
+                  <span><?php echo $course['category']; ?></span>
+                </div>
+                <div class="cours-more-info">
+                  <div class="review">
+                    <span><?php echo $course['review']; ?> Review</span>
+                    <ul class="cours-star">
+                      <?php for ($i = 0; $i < $course['review']; $i++) { ?>
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <?php } ?>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <?php if ($course['price'] == 0) { ?>
+                    <h5 class="free">Free</h5>
+                    <?php } else { ?>
+                    <del>$190</del>
+                    <h5>$<?php echo $course['price']; ?></h5>
+                    <?php } ?>
+                  </div>
                 </div>
               </div>
             </div>
+            <?php } ?>
+            <!-- pagination here -->
           </div>
-          <?php } ?>
-          <!-- pagination here -->
         </div>
       </div>
     </div>
   </div>
-</div>
-
 </div>
     <!-- contact area END -->
 </div>
