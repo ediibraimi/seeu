@@ -3,38 +3,35 @@
 							<a href="index.php"><img src="assets/images/logo.png" alt=""></a>
 						</div>
                         <ul class="nav navbar-nav">	
-							<li class="active"><a href="javascript:;">Home <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu">
-									<li><a href="index.php">Home 1</a></li>
-									<li><a href="index-2.php">Home 2</a></li>
-								</ul>
+							<li class="active"><a href="index.php" href="javascript:;">Home </a>
+								
 							</li>
 							<li><a href="javascript:;">Pages <i class="fa fa-chevron-down"></i></a>
 								<ul class="sub-menu">
 									<li><a  href="about.php" href="javascript:;">About</a>
 										
 									</li>
+									
+									<li><a href="faq.php" href="javascript:;">FAQ</a>
+										
+									</li>
+									<li><a href="contact.php" href="javascript:;">Contact Us</a>
+										
+									</li>
+									<li><a href="portfolio.php">Portfolio</a></li>
+									<li><a href="profile.php">Profile</a></li>
+									<li><a href="membership.php">Membership</a></li>
+									<li><a href="error-404.php">404 Page</a></li>
+									
 									<li><a href="javascript:;">Event<i class="fa fa-angle-right"></i></a>
 										<ul class="sub-menu">
 											<li><a href="event.php">Event</a></li>
 											<li><a href="events-details.php">Events Details</a></li>
 										</ul>
 									</li>
-									<li><a href="faq.php" href="javascript:;">FAQ</a>
-										
-									</li>
-									<li><a href="javascript:;">Contact Us<i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
-											<li><a href="contact-1.php">Contact Us 1</a></li>
-											<li><a href="contact-2.php">Contact Us 2</a></li>
-										</ul>
-									</li>
-									<li><a href="portfolio.php">Portfolio</a></li>
-									<li><a href="profile.php">Profile</a></li>
-									<li><a href="membership.php">Membership</a></li>
-									<li><a href="error-404.php">404 Page</a></li>
 								</ul>
 							</li>
+							
 							<li class="add-mega-menu"><a href="javascript:;">Our Courses <i class="fa fa-chevron-down"></i></a>
 								<ul class="sub-menu add-menu">
 									<li class="add-menu-left">
@@ -83,6 +80,7 @@
 											<li><a href="admin/mailbox-read.php">Mail Read</a></li>
 										</ul>
 									</li>
+									
 								</ul>
 							</li>
 						</ul>

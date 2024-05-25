@@ -46,7 +46,12 @@
 					$_SESSION['confirm_password'] = $data['confirm_password'];
 					$_SESSION['is_admin'] = $data['is_admin'];
 
-					header('Location: uni/admin/index.php');
+                    if($_SESSION['is_admin' == 'true']){
+                        header('Location: admin/index.php');
+                    }
+                    else{
+                        header('Location: index.php');
+                    }
 				}
 				else{
 					echo "The password is not valid
