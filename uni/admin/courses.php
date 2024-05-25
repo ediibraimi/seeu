@@ -4,7 +4,7 @@
     include_once('config.php');
 
     if(empty($_SESSION['username'])) {
-        header("Location: login.php");
+        header("Location: ../login.php");
     }
 
     $sql = "SELECT * FROM course"; // corrected table name
@@ -186,7 +186,7 @@
 							<ul>
 								<li><a href="teacherDashboard.php">My profile</a></li>
 								<li><a href="list-view-calendar.php">Activity</a></li>
-								<li><a href="mailbox.php">Messages</a></li>
+								
 								<li><a href="../login.php">Logout</a></li>
 							</ul>
 						</div>
@@ -260,24 +260,7 @@
 		                	<span class="ttr-label">Courses</span>
 		                </a>
 		            </li>
-					<li>
-						<a href="#" class="ttr-material-button">
-							<span class="ttr-icon"><i class="ti-email"></i></span>
-		                	<span class="ttr-label">Mailbox</span>
-		                	<span class="ttr-arrow-icon"><i class="fa fa-angle-down"></i></span>
-		                </a>
-		                <ul>
-		                	<li>
-		                		<a href="mailbox.php" class="ttr-material-button"><span class="ttr-label">Mail Box</span></a>
-		                	</li>
-		                	<li>
-		                		<a href="mailbox-compose.php" class="ttr-material-button"><span class="ttr-label">Compose</span></a>
-		                	</li>
-							<li>
-		                		<a href="mailbox-read.php" class="ttr-material-button"><span class="ttr-label">Mail Read</span></a>
-		                	</li>
-		                </ul>
-		            </li>
+					
 					<li>
 						<a href="#" class="ttr-material-button">
 							<span class="ttr-icon"><i class="ti-calendar"></i></span>
