@@ -67,7 +67,6 @@
 				<div>
 					<a href="index.php" class="ttr-logo">
 						<img alt="" class="ttr-logo-mobile" src="assets/images/logo-mobile.png" width="30" height="30">
-						<img alt="" class="ttr-logo-desktop" src="assets/images/logo-white.png" width="160" height="27">
 					</a>
 				</div>
 			</div>
@@ -174,7 +173,7 @@
 						<a href="#" class="ttr-material-button ttr-submenu-toggle"><span class="ttr-user-avatar"><img alt="" src="assets/images/testimonials/pic3.jpg" width="32" height="32"></span></a>
 						<div class="ttr-header-submenu">
 							<ul>
-								<li><a href="user-profile.php">My profile</a></li>
+								<li><a href="teacherDashboard.php">My profile</a></li>
 								<li><a href="list-view-calendar.php">Activity</a></li>
 								<li><a href="mailbox.php">Messages</a></li>
 								<li><a href="../login.php">Logout</a></li>
@@ -233,16 +232,7 @@
 	<div class="ttr-sidebar">
 		<div class="ttr-sidebar-wrapper content-scroll">
 			<!-- side menu logo start -->
-			<div class="ttr-sidebar-logo">
-				<a href="#"><img alt="" src="assets/images/logo.png" width="122" height="27"></a>
-				<!-- <div class="ttr-sidebar-pin-button" title="Pin/Unpin Menu">
-					<i class="material-icons ttr-fixed-icon">gps_fixed</i>
-					<i class="material-icons ttr-not-fixed-icon">gps_not_fixed</i>
-				</div> -->
-				<div class="ttr-sidebar-toggle-button">
-					<i class="ti-arrow-left"></i>
-				</div>
-			</div>
+		
 			<!-- side menu logo end -->
 			<!-- sidebar menu start -->
 			<nav class="ttr-sidebar-navi">
@@ -250,7 +240,7 @@
 					<li>
 						<a href="index.php" class="ttr-material-button">
 							<span class="ttr-icon"><i class="ti-home"></i></span>
-		                	<span class="ttr-label">Dashborad</span>
+		                	<span class="ttr-label">Dashboard</span>
 		                </a>
 		            </li>
 					<li>

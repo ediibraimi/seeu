@@ -175,7 +175,7 @@
 						<a href="#" class="ttr-material-button ttr-submenu-toggle"><span class="ttr-user-avatar"><img alt="" src="assets/images/testimonials/pic3.jpg" width="32" height="32"></span></a>
 						<div class="ttr-header-submenu">
 							<ul>
-								<li><a href="user-profile.php">My profile</a></li>
+								<li><a href="teacherDashboard.php">My profile</a></li>
 								<li><a href="list-view-calendar.php">Activity</a></li>
 								<li><a href="mailbox.php">Messages</a></li>
 								<li><a href="../login.php">Logout</a></li>
@@ -319,7 +319,7 @@
 		                </a>
 		                <ul>
 		                	<li>
-		                		<a href="user-profile.php" class="ttr-material-button"><span class="ttr-label">User Profile</span></a>
+		                		<a href="teacherDashboard.php" class="ttr-material-button"><span class="ttr-label">User Profile</span></a>
 		                	</li>
 		                	<li>
 		                		<a href="teacher-profile.php" class="ttr-material-button"><span class="ttr-label">Teacher Profile</span></a>
