@@ -352,7 +352,7 @@
 							<h4>Teacher Profile</h4>
 						</div>
 						<div class="widget-inner">
-							<form class="edit-profile m-b30">
+							<form class="edit-profile m-b30" method="POST" action="/uni/teacherLogic.php">
 								<div class="row">
 									<div class="col-12">
 										<div class="ml-auto">
@@ -450,7 +450,7 @@
 										</div>
 									</div>
 									<div class="col-12">
-										<button type="reset" class="btn">Save changes</button>
+										<button type="submit" name="submit"  value="submit" class="btn">Submit</button>
 										<button type="reset" class="btn-secondry">Cancel</button>
 									</div>
 								</div>
