@@ -3,17 +3,17 @@ session_start();
 include_once('config.php');
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    if (isset($_POST['name3']) && isset($_POST['surname3']) && isset($_POST['major3'])) {
-        $name = $_POST['name3'];
-        $surname = $_POST['surname3'];
-        $major = $_POST['major3'];
+    if (isset($_POST['name']) && isset($_POST['surname']) && isset($_POST['major'])) {
+        $name = $_POST['name'];
+        $surname = $_POST['surname'];
+        $major = $_POST['major'];
          
        
 
         if (empty($name) || empty($surname) || empty($major)) {
             echo "Please fill in all fields";
         } else {
-            $sql = "INSERT INTO chemst (name3, surname3, major3) VALUES (:name, :surname, :major)";
+            $sql = "INSERT INTO chemst (name, surname, major) VALUES (:name, :surname, :major)";
             $insertUser = $conn->prepare($sql);
             $insertUser->bindParam(':name', $name);
             $insertUser->bindParam(':surname', $surname);

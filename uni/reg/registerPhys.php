@@ -67,7 +67,7 @@
 							<div class="form-group">
 								<div class="input-group">
 									<label>Your Name</label>
-									<input name="name2" type="text" required="" class="form-control">
+									<input name="name" type="text" required="" class="form-control">
 								</div>
 							</div>
 						</div>
@@ -76,7 +76,7 @@
 							<div class="form-group">
 								<div class="input-group">
 									<label>Surname</label>
-									<input name="surname2" type="text" required="" class="form-control">
+									<input name="surname" type="text" required="" class="form-control">
 								</div>
 							</div>
                         </div>
@@ -84,7 +84,7 @@
 							<div class="form-group">
 								<div class="input-group"> 
 									<label>Major</label>
-									<input name="major2" type="password" class="form-control" required="">
+									<input name="major" type="password" class="form-control" required="">
 								</div>
 							</div>
 						</div>
