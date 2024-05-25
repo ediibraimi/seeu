@@ -219,7 +219,7 @@
 			<div id="rev_slider_486_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="news-gallery36" data-source="gallery" style="margin:0px auto;background-color:#ffffff;padding:0px;margin-top:0px;margin-bottom:0px;">
 				<!-- START REVOLUTION SLIDER 5.3.0.2 fullwidth mode -->
 				<div id="rev_slider_486_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.3.0.2">
-					<ul>	<!-- SLIDE  -->
+					<>	<!-- SLIDE  -->
 						<li data-index="rs-100" 
 						data-transition="parallaxvertical" 
 						data-slotamount="default" 
@@ -533,6 +533,8 @@
 								data-paddingbottom="[12,12,12,12]"
 								data-paddingleft="[30,35,35,15]"
 								style="z-index: 8; white-space: nowrap; outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer; border-radius:30px;">CONTACT US</div>
+							
+								
 						</li>
 						<!-- SLIDE  -->
 					</ul>
