@@ -136,17 +136,11 @@
 											<li><a href="events-details.php">Events Details</a></li>
 										</ul>
 									</li>
-									<li><a href="javascript:;">FAQ's<i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
-											<li><a href="faq-1.php">FAQ's 1</a></li>
-											<li><a href="faq-2.php">FAQ's 2</a></li>
-										</ul>
+									<li><a href="faq.php" href="javascript:;">FAQ</a>
+										
 									</li>
-									<li><a href="javascript:;">Contact Us<i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
-											<li><a href="contact-1.php">Contact Us 1</a></li>
-											<li><a href="contact-2.php">Contact Us 2</a></li>
-										</ul>
+									<li><a href="contact.php" href="javascript:;">Contact Us</a>
+										
 									</li>
 									<li><a href="portfolio.php">Portfolio</a></li>
 									<li><a href="profile.php">Profile</a></li>
