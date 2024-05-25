@@ -22,10 +22,9 @@
 
 				</li>
 				
-				<li><a href="profile.php">Profile</a></li>
+			
 				<li><a href="membership.php">Scholarships</a></li>
-				<li><a href="error-404.php">404 Page</a></li>
-
+		
 				<li><a href="javascript:;">Event<i class="fa fa-angle-right"></i></a>
 					<ul class="sub-menu">
 						<li><a href="event.php">Event</a></li>
