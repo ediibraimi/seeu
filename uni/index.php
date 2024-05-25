@@ -127,7 +127,7 @@
 							</li>
 							<li><a href="javascript:;">Pages <i class="fa fa-chevron-down"></i></a>
 								<ul class="sub-menu">
-									<li><a href="about-1.php" href="javascript:;">About</a>
+									<li><a href="about.php" href="javascript:;">About</a>
 										
 									</li>
 									<li><a href="javascript:;">Event<i class="fa fa-angle-right"></i></a>
