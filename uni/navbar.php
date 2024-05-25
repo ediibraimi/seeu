@@ -11,12 +11,7 @@
 									<li><a  href="about.php" href="javascript:;">About</a>
 										
 									</li>
-									<li><a href="javascript:;">Event<i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
-											<li><a href="event.php">Event</a></li>
-											<li><a href="events-details.php">Events Details</a></li>
-										</ul>
-									</li>
+									
 									<li><a href="faq.php" href="javascript:;">FAQ</a>
 										
 									</li>
@@ -27,8 +22,16 @@
 									<li><a href="profile.php">Profile</a></li>
 									<li><a href="membership.php">Membership</a></li>
 									<li><a href="error-404.php">404 Page</a></li>
+									
+									<li><a href="javascript:;">Event<i class="fa fa-angle-right"></i></a>
+										<ul class="sub-menu">
+											<li><a href="event.php">Event</a></li>
+											<li><a href="events-details.php">Events Details</a></li>
+										</ul>
+									</li>
 								</ul>
 							</li>
+							
 							<li class="add-mega-menu"><a href="javascript:;">Our Courses <i class="fa fa-chevron-down"></i></a>
 								<ul class="sub-menu add-menu">
 									<li class="add-menu-left">
@@ -77,6 +80,7 @@
 											<li><a href="admin/mailbox-read.php">Mail Read</a></li>
 										</ul>
 									</li>
+									
 								</ul>
 							</li>
 						</ul>
