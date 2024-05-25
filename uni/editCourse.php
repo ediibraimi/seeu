@@ -28,7 +28,7 @@
             <div class="col-4 offset-4">
                 <h1>Edit user details</h1>   
                 <div class="table-responsive">
-                    <form action="updateCourse.php" method="post">
+                    <form action="course.php" method="post">
 
                         <div class="form-floating mb-2">
                             <input type="number" readonly class="form-control" name="id" id="floatingInput" 
