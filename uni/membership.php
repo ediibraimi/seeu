@@ -128,14 +128,7 @@
             </div>
         </div>
 		<!-- Breadcrumb row -->
-		<div class="breadcrumb-row">
-			<div class="container">
-				<ul class="list-inline">
-					<li><a href="#">Home</a></li>
-					<li>Membership</li>
-				</ul>
-			</div>
-		</div>
+		
 		<!-- Breadcrumb row END -->
         <!-- inner page banner END -->
 		<div class="content-block">
@@ -166,15 +159,11 @@
 										</div>
 										<ul class="pricingtable-features">
 											<li>One Time Fee</li>
-											<li>3 User</li>
-											<li>Lifetime Availability</li>
 											<li>Non Featured</li>
-											<li>30 days Listing</li>
 											<li>24/7 Support</li>
-											<li>Select</li>
 										</ul>
 										<div class="pricingtable-footer"> 
-											<a href="#" class="btn radius-xl">Get It Now</a>
+											<a href="registerProg.php" class="btn radius-xl">Register</a>
 										</div>
 									</div>
 								</div>
@@ -195,15 +184,15 @@
 										</div>
 										<ul class="pricingtable-features">
 											<li>One Time Fee</li>
-											<li>3 User</li>
-											<li>Lifetime Availability</li>
+											
+											
 											<li>Non Featured</li>
-											<li>30 days Listing</li>
+											
 											<li>24/7 Support</li>
-											<li>Select</li>
+											
 										</ul>
 										<div class="pricingtable-footer"> 
-											<a href="#" class="btn radius-xl">Get It Now</a>
+											<a href="registerPhys.php" class="btn radius-xl">Register</a>
 										</div>
 									</div>
 								</div>
@@ -224,15 +213,14 @@
 										</div>
 										<ul class="pricingtable-features">
 											<li>One Time Fee</li>
-											<li>3 User</li>
-											<li>Lifetime Availability</li>
+											
 											<li>Non Featured</li>
-											<li>30 days Listing</li>
+											
 											<li>24/7 Support</li>
-											<li>Select</li>
+											
 										</ul>
 										<div class="pricingtable-footer"> 
-											<a href="#" class="btn radius-xl">Get It Now</a>
+											<a href="registerChem.php" class="btn radius-xl">Register</a>
 										</div>
 									</div>
 								</div>

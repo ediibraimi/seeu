@@ -1,7 +1,7 @@
 <?php
 include_once('config.php');
 
-if (isset($_POST['submit'])) {
+if (isset($_POST['submit1'])) {
     $id = $_POST['id'];
     $image = $_POST['image'];
     $title = $_POST['title'];
