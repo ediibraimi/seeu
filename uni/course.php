@@ -1,4 +1,4 @@
-<?php 
+<?php
     session_start();
 
     include_once('config.php');
@@ -7,13 +7,12 @@
         header("Location: login.php");
     }
 
-        $sql = "SELECT * FROM courses";
+    $sql = "SELECT * FROM course"; // corrected table name
 
-        $selectCourses = $conn->prepare($sql);
+    $selectCourse = $conn->prepare($sql);
 
-        $selectCourses->execute();
-        $courseData = $selectCourses->fetchAll();
-
+    $selectCourse->execute();
+    $courseData = $selectCourse->fetchAll();
 ?>
 
 <!DOCTYPE html>

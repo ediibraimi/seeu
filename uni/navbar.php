@@ -1,4 +1,4 @@
-<div class="menu-links navbar-collapse collapse justify-content-start" id="menuDropdown">
+<div class="menu-links navbar-collapse collapse justify-content-start " id="menuDropdown">
 						<div class="menu-logo">
 							<a href="index.php"><img src="assets/images/logo.png" alt=""></a>
 						</div>

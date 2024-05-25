@@ -9,7 +9,7 @@ if(isset($_POST['submit']))
     $review = $_POST['review'];
     $price = $_POST['price'];
 
-        $sql = "INSERT INTO courses(image, title, category, review, price) 
+        $sql = "INSERT INTO course(image, title, category, review, price) 
         VALUES (:image, :title, :category, :review, :price)";
 
         $insertCourse = $conn->prepare($sql);
