@@ -1972,7 +1972,6 @@ button.back-to-top {
 	display: inline-block;
 	font-size: 13px;
 	text-transform: capitalize;
-	font-family: ;
 	margin-right: 5px;
 }
 .media-post li a{
@@ -2797,7 +2796,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#391800', end
 	font-weight: 500;
 }
 .pricingtable-bx {
-	font-size: 120px;
+	font-size: 38px;
 	font-weight: 300;
 	line-height: 90px;
 	font-family:rubik;
@@ -2811,6 +2810,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#391800', end
 }
 .pricingtable-type{
 	color:#fff;
+	font-size: 20px;
 }
 .pricingtable-type::before{
 	content: "/";
@@ -3143,7 +3143,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#391800', end
 		padding-right:20px !important;
 	}
 	.pricingtable-bx {
-		font-size: 80px;
+		font-size: 23px;
 	}
 }
 @media only screen and (max-width: 991px) {
@@ -3356,3 +3356,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#391800', end
 		margin-bottom: 5px;
 	}
 }
+
+
+
