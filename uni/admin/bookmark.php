@@ -177,7 +177,7 @@
 								<li><a href="teacherDashboard.php">My profile</a></li>
 								<li><a href="list-view-calendar.php">Activity</a></li>
 								<li><a href="mailbox.php">Messages</a></li>
-								<li><a href="../login.php">Logout</a></li>
+								<li><a href="../logout.php">Logout</a></li>
 							</ul>
 						</div>
 					</li>
@@ -513,7 +513,7 @@
 											<p>Lorem ipsum dolor sit amet, est ei idque voluptua copiosae, pro detracto disputando reformidans at, ex vel suas eripuit. Vel alii zril maiorum ex, mea id sale eirmod epicurei. Sit te possit senserit, eam alia veritus maluisset ei, id cibo vocent ocurreret per. Te qui doming doctus referrentur, usu debet tamquam et. Sea ut nullam aperiam, mei cu tollit salutatus delicatissimi. </p>	
 										</div>
 										<div class="col-md-12">
-											<a href="#" class="btn radius-xl">View Courses</a>
+											<a href="courses.php" class="btn radius-xl">View Courses</a>
 											<a href="#" class="btn red outline radius-xl ">Cancel</a>
 										</div>
 									</div>
