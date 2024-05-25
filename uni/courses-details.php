@@ -127,14 +127,7 @@
             </div>
         </div>
 		<!-- Breadcrumb row -->
-		<div class="breadcrumb-row">
-			<div class="container">
-				<ul class="list-inline">
-					<li><a href="#">Home</a></li>
-					<li>Courses Details</li>
-				</ul>
-			</div>
-		</div>
+			
 		<!-- Breadcrumb row END -->
         <!-- inner page banner END -->
 		<div class="content-block">

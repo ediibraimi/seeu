@@ -308,7 +308,7 @@
 					<li>
 						<a href="add-listing.php" class="ttr-material-button">
 							<span class="ttr-icon"><i class="ti-layout-accordion-list"></i></span>
-		                	<span class="ttr-label">Add listing</span>
+		                	<span class="ttr-label"></span>
 		                </a>
 		            </li>
 					<li>
