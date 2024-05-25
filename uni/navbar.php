@@ -21,7 +21,7 @@
 				<li><a href="contact.php" href="javascript:;">Contact Us</a>
 
 				</li>
-				<li><a href="portfolio.php">Portfolio</a></li>
+				
 				<li><a href="profile.php">Profile</a></li>
 				<li><a href="membership.php">Membership</a></li>
 				<li><a href="error-404.php">404 Page</a></li>
