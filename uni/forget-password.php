@@ -67,7 +67,7 @@
 							<div class="form-group">
 								<div class="input-group">
 									<label>Your Email Address</label>
-									<input name="dzName" type="email" required="" class="form-control">
+									<input name="email" type="email" required="" class="form-control">
 								</div>
 							</div>
 						</div>
