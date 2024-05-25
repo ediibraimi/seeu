@@ -15,7 +15,7 @@
 							</ul>
 						</div>
 						<div class="pt-btn-join">
-							<a href="#" class="btn ">Join Now</a>
+							<a href="register.php" class="btn ">Join Now</a>
 						</div>
 					</div>
 				</div>
@@ -58,7 +58,6 @@
 									<ul>
 										<li><a href="admin/index.php">Dashboard</a></li>
 										<li><a href="blog.php">Blog</a></li>
-										<li><a href="portfolio.php">Portfolio</a></li>
 										<li><a href="event.php">Event</a></li>
 									</ul>
 								</div>

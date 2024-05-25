@@ -24,7 +24,7 @@
 	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
 	
 	<!-- PAGE TITLE HERE ============================================= -->
-	<title>EduChamp : Education HTML Template </title>
+	<title>University </title>
 	
 	<!-- MOBILE SPECIFIC ============================================= -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -59,7 +59,7 @@
 					<div class="topbar-left">
 						<ul>
 							<li><a href="faq-1.php"><i class="fa fa-question-circle"></i>Ask a Question</a></li>
-							<li><a href="javascript:;"><i class="fa fa-envelope-o"></i>Support@website.com</a></li>
+							<li><a href="javascript:;"><i class="fa fa-envelope-o"></i>University@gmail.com</a></li>
 						</ul>
 					</div>
 					<div class="topbar-right">
@@ -122,16 +122,13 @@
         <div class="page-banner ovbl-dark" style="background-image:url(assets/images/banner/banner2.jpg);">
             <div class="container">
                 <div class="page-banner-entry">
-                    <h1 class="text-white">About Us 1</h1>
+                    <h1 class="text-white">About Us</h1>
 				 </div>
             </div>
         </div>
 		<div class="breadcrumb-row">
 			<div class="container">
-				<ul class="list-inline">
-					<li><a href="#">Home</a></li>
-					<li>About Us 1</li>
-				</ul>
+				
 			</div>
 		</div>
 		<!-- Page Heading Box END ==== -->
@@ -197,7 +194,7 @@
 							<h2 class="m-b10">Our Story</h2>
 							<h5 class="fw4">It is a long established fact that a reade.</h5>
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-							<a href="#" class="btn">Read More</a>
+							<a href="faq.php" class="btn">Read More</a>
 						</div>
 						<div class="col-lg-7 col-md-12 heading-bx p-lr">
 							<div class="video-bx">
@@ -260,7 +257,7 @@
 								<h2>Learn a new skill online on <br/> your time</h2>
 								<h4><span class="counter">57,000 </span> Online Courses</h4>
 								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-								<a href="#" class="btn button-md">Join Now</a>
+								<a href="register.php" class="btn button-md">Join Now</a>
 							</div>
 						</div>
 					</div>

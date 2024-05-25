@@ -48,6 +48,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link class="skin" rel="stylesheet" type="text/css" href="assets/css/color/color-1.css">
 	
+	
 </head>
 <body id="bg">
 <div class="page-wraper">
@@ -129,6 +130,7 @@
 <script src="assets/js/functions.js"></script>
 <script src="assets/js/contact.js"></script>
 <script src='assets/vendors/switcher/switcher.js'></script>
+
 </body>
 
 </html>

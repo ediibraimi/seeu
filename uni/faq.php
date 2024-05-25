@@ -78,14 +78,7 @@
             </div>
         </div>
 		<!-- Breadcrumb row -->
-		<div class="breadcrumb-row">
-			<div class="container">
-				<ul class="list-inline">
-					<li><a href="#">Home</a></li>
-					<li>Faqs 2</li>
-				</ul>
-			</div>
-		</div>
+		
 		<!-- Breadcrumb row END -->
         <!-- contact area -->
         <div class="content-block">
@@ -156,10 +149,10 @@
 									<div class="acod-head">
 										<h6 class="acod-title"> 
 											<a data-toggle="collapse" href="#faq1" class="collapsed" data-parent="#faq1">
-											Why won't my payment go through? </a> </h6>
+											What makes our University unique? </a> </h6>
 									</div>
 									<div id="faq1" class="acod-body collapse">
-										<div class="acod-content">Web design aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+										<div class="acod-content">The opportunities that our University offers to our students such as advanced learning programmes exchange opportunities etc.</div>
 									</div>
 								</div>
 								<div class="panel">
@@ -169,38 +162,38 @@
 											How do I get a refund?</a> </h6>
 									</div>
 									<div id="faq2" class="acod-body collapse">
-										<div class="acod-content">Graphic design aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+										<div class="acod-content">Another thing we offer is refunds for students who want to leave mid semester due to various reasons. After a student decides to leave he is refunded within a month.</div>
 									</div>
 								</div>
 								<div class="panel">
 									<div class="acod-head">
 										<h6 class="acod-title"> 
 											<a data-toggle="collapse"  href="#faq3" class="collapsed"  data-parent="#faq3">
-											How do I redeem a coupon? </a> </h6>
+											Can anyone join? </a> </h6>
 									</div>
 									<div id="faq3" class="acod-body collapse">
-										<div class="acod-content">Developement aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+										<div class="acod-content">Our Schools around Europe provide schooling and education to anyone who wants to learn with relatively low prices and high quality. We also provide courses along side out main school programmes.</div>
 									</div>
 								</div>
 								<div class="panel">
 									<div class="acod-head">
 										<h6 class="acod-title"> 
 											<a data-toggle="collapse"  href="#faq4" class="collapsed"  data-parent="#faq4">
-											Why aren't my courses showing in my account? </a> </h6>
+											Does our University provide online attendance for students abroad? </a> </h6>
 									</div>
 									<div id="faq4" class="acod-body collapse">
-										<div class="acod-content">Developement aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+										<div class="acod-content">Our Universities provide online schooling for students for up to 3 months, exams cant be taken online.</div>
 									</div>
 								</div>
 								<div class="panel">
 									<div class="acod-head">
 										<h6 class="acod-title"> 
 											<a data-toggle="collapse"  href="#faq5" class="collapsed"  data-parent="#faq5">
-											Changing account name </a> </h6>
+											Does the university provide students with their personal needs? </a> </h6>
 									</div>
 									
 									<div id="faq5" class="acod-body collapse">
-										<div class="acod-content">Developement aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+										<div class="acod-content">Our Schools are equiped with all possible living needs including the living spaces that come with the scholarship, breakfast and dinner for all students, libraries, sport fields and many other things.</div>
 									</div>
 								</div>
 							</div>
