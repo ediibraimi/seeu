@@ -149,11 +149,11 @@
 										<div class="pricingtable-main"> 
 											<div class="pricingtable-price"> 
 												<span class="priceing-doller">$</span>
-												<span class="pricingtable-bx">10</span>
-												<span class="pricingtable-type">3 Month</span>
+												<span class="pricingtable-bx">100</span>
+												<span class="pricingtable-type">Semester</span>
 											</div>
 											<div class="pricingtable-title">
-												<h2>Basic</h2>
+												<h2>Programming</h2>
 												<p>We are just getting started</p>
 											</div>
 										</div>
@@ -174,11 +174,11 @@
 										<div class="pricingtable-main"> 
 											<div class="pricingtable-price"> 
 												<span class="priceing-doller">$</span>
-												<span class="pricingtable-bx">15</span>
-												<span class="pricingtable-type">6 Month</span>
+												<span class="pricingtable-bx">150</span>
+												<span class="pricingtable-type">Semester</span>
 											</div>
 											<div class="pricingtable-title">
-												<h2>Medium</h2>
+												<h2>Physics</h2>
 												<p>The most popular plan</p>
 											</div>
 										</div>
@@ -203,11 +203,11 @@
 										<div class="pricingtable-main"> 
 											<div class="pricingtable-price"> 
 												<span class="priceing-doller">$</span>
-												<span class="pricingtable-bx">20</span>
-												<span class="pricingtable-type">12 Month</span>
+												<span class="pricingtable-bx">200</span>
+												<span class="pricingtable-type">Semester</span>
 											</div>
 											<div class="pricingtable-title">
-												<h2>Advanced</h2>
+												<h2>Cheminstry</h2>
 												<p>Experience the best for e-learning</p>
 											</div>
 										</div>
