@@ -49,12 +49,8 @@
 									</li>
 								</ul>
 							</li>
-							<li><a href="javascript:;">Blog <i class="fa fa-chevron-down"></i></a>
+							<li><a href="blog-classic-sidebar.php" href="javascript:;">Blog </a>
 								<ul class="sub-menu">
-									<li><a href="blog-classic-grid.php">Blog Classic</a></li>
-									<li><a href="blog-classic-sidebar.php">Blog Classic Sidebar</a></li>
-									<li><a href="blog-list-sidebar.php">Blog List Sidebar</a></li>
-									<li><a href="blog-standard-sidebar.php">Blog Standard Sidebar</a></li>
 									<li><a href="blog-details.php">Blog Details</a></li>
 								</ul>
 							</li>
