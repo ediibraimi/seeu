@@ -1,8 +1,4 @@
-<?php
-
-session_start();
-
-?>
+<?php session_start(); ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,50 +12,92 @@ session_start();
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"></script>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .card {
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-control:focus {
+  border-color: #337ab7;
+  box-shadow: 0 0 5px rgba(51, 122, 183, 0.3);
+}
+
+.btn-primary {
+  background-color: #337ab7;
+  border-color: #337ab7;
+  color: #fff;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #286090;
+  border-color: #286090;
+}
+  </style>
 </head>
 <body>
-        <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center 
-            pt-3 pb-2 mb-3 border-bottom">
-              
-            </div>
-            <br><br>
-
-            <h2>Courses</h2>
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-6 offset-3">
-                          <form action="addCourse.php" method="POST">
-
-                <div class="form-floating mb-3">
-                    <input type="file" class="form-control" id="floating-input" placeholder="Image" name="image">
-                    <label for="floatingInput">Image</label>
-                </div>
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="floating-input" placeholder="Course Name" name="title">
-                    <label for="floatingInput">Course Name</label>
-                </div>
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="floating-input" placeholder="Category" name="category">
-                    <label for="floatingInput">Category</label>
-                </div>
-                <div class="form-floating mb-3">
-                    <input type="number" class="form-control" id="floating-input" placeholder="Review" name="review">
-                    <label for="floatingInput">Review</label>
-                </div>
-                <div class="form-floating mb-3">
-                    <input type="number" class="form-control" id="floating-input" placeholder="Price" name="price">
-                    <label for="floatingInput">Course price</label>
-                </div>
-                <button class="w-100 btn btn-lg btn-primary" type="submit" name="submit">Add Course</button>
-            </form>
-                        </div>
-                      </div>
-                  </div>
-            
-        </main>
+  <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+      <h1 class="h2 text-center">Add Course</h1>
     </div>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <br><br>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <div class="card shadow-lg">
+            <div class="card-body">
+              <form action="addCourse.php" method="POST" enctype="multipart/form-data">
+                <div class="form-group mb-3">
+                  <label for="image">Image</label>
+                  <input type="file" class="form-control" id="image" name="image">
+                </div>
+                <div class="form-group mb-3">
+                  <label for="title">Course Name</label>
+                  <input type="text" class="form-control" id="title" name="title">
+                </div>
+                <div class="form-group mb-3">
+                  <label for="category">Category</label>
+                  <input type="text" class="form-control" id="category" name="category">
+                </div>
+                <div class="form-group mb-3">
+                  <label for="review">Review</label>
+                  <input type="number" class="form-control" id="review" name="review">
+                </div>
+                <div class="form-group mb-3">
+                  <label for="price">Course Price</label>
+                  <input type="number" class="form-control" id="price" name="price">
+                </div>
+                <button class="btn btn-primary btn-block" type="submit" name="submit">Add Course</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
