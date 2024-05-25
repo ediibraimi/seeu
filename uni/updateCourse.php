@@ -1,7 +1,7 @@
 <?php 
     include_once('config.php');
 
-    if(isset($_POST['submit1'])) {
+    if(isset($_POST['submit'])) {
         $id = $_POST['id'];
         $image = $_POST['image'];
         $title = $_POST['title'];
@@ -9,7 +9,7 @@
         $review = $_POST['review'];
         $price = $_POST['price'];
 
-        $sql = "UPDATE courses SET id=:id, image=:image, title=:title, category=:category, review=:review, price=:price WHERE id=:id";
+        $sql = "UPDATE course SET id=:id, image=:image, title=:title, category=:category, review=:review, price=:price WHERE id=:id";
 
         $prep = $conn->prepare($sql);
         $prep->bindParam(':id', $id);
@@ -20,6 +20,6 @@
         $prep->bindParam(':price', $price);
 
         $prep->execute();
-        header('Location: course.php');
+        header('Location: coursesView.php');
     }
 ?>
