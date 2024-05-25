@@ -198,6 +198,7 @@
 											<a data-toggle="collapse"  href="#faq5" class="collapsed"  data-parent="#faq5">
 											Changing account name </a> </h6>
 									</div>
+									
 									<div id="faq5" class="acod-body collapse">
 										<div class="acod-content">Developement aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
 									</div>
