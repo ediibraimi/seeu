@@ -57,7 +57,7 @@
 									<h5 class="footer-title">Get In Touch</h5>
 									<ul>
 										<li><a href="admin/index.php">Dashboard</a></li>
-										<li><a href="blog-classic-grid.php">Blog</a></li>
+										<li><a href="blog.php">Blog</a></li>
 										<li><a href="portfolio.php">Portfolio</a></li>
 										<li><a href="event.php">Event</a></li>
 									</ul>
