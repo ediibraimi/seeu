@@ -51,7 +51,7 @@
 <body id="bg">
 <div class="page-wraper">
 	<div id="loading-icon-bx"></div>
-    <!-- Header Top ==== -->
+	<!-- Header Top ==== -->
     <header class="header rs-nav">
 		<div class="top-bar">
 			<div class="container">
@@ -111,106 +111,7 @@
 						<span id="search-remove"><i class="ti-close"></i></span>
                     </div>
 					<!-- Navigation Menu ==== -->
-                    <div class="menu-links navbar-collapse collapse justify-content-start" id="menuDropdown">
-						<div class="menu-logo">
-							<a href="index.php"><img src="assets/images/logo.png" alt=""></a>
-						</div>
-                        <ul class="nav navbar-nav">	
-							<li class="active"><a href="javascript:;">Home <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu">
-									<li><a href="index.php">Home 1</a></li>
-									<li><a href="index-2.php">Home 2</a></li>
-								</ul>
-							</li>
-							<li><a href="javascript:;">Pages <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu">
-									<li><a href="javascript:;">About<i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
-											<li><a href="about-1.php">About 1</a></li>
-											<li><a href="about-2.php">About 2</a></li>
-										</ul>
-									</li>
-									<li><a href="javascript:;">Event<i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
-											<li><a href="event.php">Event</a></li>
-											<li><a href="events-details.php">Events Details</a></li>
-										</ul>
-									</li>
-									<li><a href="javascript:;">FAQ's<i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
-											<li><a href="faq-1.php">FAQ's 1</a></li>
-											<li><a href="faq-2.php">FAQ's 2</a></li>
-										</ul>
-									</li>
-									<li><a href="javascript:;">Contact Us<i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
-											<li><a href="contact-1.php">Contact Us 1</a></li>
-											<li><a href="contact-2.php">Contact Us 2</a></li>
-										</ul>
-									</li>
-									<li><a href="portfolio.php">Portfolio</a></li>
-									<li><a href="profile.php">Profile</a></li>
-									<li><a href="membership.php">Membership</a></li>
-									<li><a href="error-404.php">404 Page</a></li>
-								</ul>
-							</li>
-							<li class="add-mega-menu"><a href="javascript:;">Our Courses <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu add-menu">
-									<li class="add-menu-left">
-										<h5 class="menu-adv-title">Our Courses</h5>
-										<ul>
-											<li><a href="courses.php">Courses </a></li>
-											<li><a href="courses-details.php">Courses Details</a></li>
-											<li><a href="profile.php">Instructor Profile</a></li>
-											<li><a href="event.php">Upcoming Event</a></li>
-											<li><a href="membership.php">Membership</a></li>
-										</ul>
-									</li>
-									<li class="add-menu-right">
-										<img src="assets/images/adv/adv.jpg" alt=""/>
-									</li>
-								</ul>
-							</li>
-							<li><a href="javascript:;">Blog <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu">
-									<li><a href="blog-classic-grid.php">Blog Classic</a></li>
-									<li><a href="blog-classic-sidebar.php">Blog Classic Sidebar</a></li>
-									<li><a href="blog-list-sidebar.php">Blog List Sidebar</a></li>
-									<li><a href="blog-standard-sidebar.php">Blog Standard Sidebar</a></li>
-									<li><a href="blog-details.php">Blog Details</a></li>
-								</ul>
-							</li>
-							<li class="nav-dashboard"><a href="javascript:;">Dashboard <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu">
-									<li><a href="admin/index.php">Dashboard</a></li>
-									<li><a href="admin/add-listing.php">Add Listing</a></li>
-									<li><a href="admin/bookmark.php">Bookmark</a></li>
-									<li><a href="admin/courses.php">Courses</a></li>
-									<li><a href="admin/review.php">Review</a></li>
-									<li><a href="admin/teacher-profile.php">Teacher Profile</a></li>
-									<li><a href="admin/user-profile.php">User Profile</a></li>
-									<li><a href="javascript:;">Calendar<i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
-											<li><a href="admin/basic-calendar.php">Basic Calendar</a></li>
-											<li><a href="admin/list-view-calendar.php">List View Calendar</a></li>
-										</ul>
-									</li>
-									<li><a href="javascript:;">Mailbox<i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
-											<li><a href="admin/mailbox.php">Mailbox</a></li>
-											<li><a href="admin/mailbox-compose.php">Compose</a></li>
-											<li><a href="admin/mailbox-read.php">Mail Read</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-						</ul>
-						<div class="nav-social-link">
-							<a href="javascript:;"><i class="fa fa-facebook"></i></a>
-							<a href="javascript:;"><i class="fa fa-google-plus"></i></a>
-							<a href="javascript:;"><i class="fa fa-linkedin"></i></a>
-						</div>
-                    </div>
+                   <?php include_once("navbar.php") ?>
 					<!-- Navigation Menu END ==== -->
                 </div>
             </div>
@@ -218,12 +119,12 @@
     </header>
     <!-- header END ==== -->
     <!-- Inner Content Box ==== -->
-    <div class="page-content bg-white">
+    <div class="page-content">
         <!-- Page Heading Box ==== -->
-        <div class="page-banner ovbl-dark" style="background-image:url(assets/images/banner/banner3.jpg);">
+        <div class="page-banner ovbl-dark" style="background-image:url(assets/images/banner/banner2.jpg);">
             <div class="container">
                 <div class="page-banner-entry">
-                    <h1 class="text-white">About Us 2</h1>
+                    <h1 class="text-white">About Us 1</h1>
 				 </div>
             </div>
         </div>
@@ -231,68 +132,58 @@
 			<div class="container">
 				<ul class="list-inline">
 					<li><a href="#">Home</a></li>
-					<li>About Us 2</li>
+					<li>About Us 1</li>
 				</ul>
 			</div>
 		</div>
 		<!-- Page Heading Box END ==== -->
-        <!-- Page Content Box ==== -->
+		<!-- Page Content Box ==== -->
 		<div class="content-block">
             <!-- About Us ==== -->
 			<div class="section-area section-sp1">
                 <div class="container">
 					 <div class="row">
-						 <div class="col-lg-6 m-b30">
-							<h2 class="title-head ">Learn a new skill online<br/> <span class="text-primary"> on your time</span></h2>
-							<h4><span class="counter">57,000 </span> Online Courses</h4>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
-							<a href="#" class="btn button-md">Join Now</a>
-						 </div>
-						 <div class="col-lg-6">
-							 <div class="row">
-								<div class="col-lg-6 col-md-6 col-sm-6 m-b30">
-									<div class="feature-container">
-										<div class="feature-md text-white m-b20">
-											<a href="#" class="icon-cell"><img src="assets/images/icon/icon1.png" alt=""/></a> 
-										</div>
-										<div class="icon-content">
-											<h5 class="ttr-tilte">Our Philosophy</h5>
-											<p>Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
-										</div>
-									</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
+							<div class="feature-container">
+								<div class="feature-md text-white m-b20">
+									<a href="#" class="icon-cell"><img src="assets/images/icon/icon1.png" alt=""/></a> 
 								</div>
-								<div class="col-lg-6 col-md-6 col-sm-6 m-b30">
-									<div class="feature-container">
-										<div class="feature-md text-white m-b20">
-											<a href="#" class="icon-cell"><img src="assets/images/icon/icon2.png" alt=""/></a> 
-										</div>
-										<div class="icon-content">
-											<h5 class="ttr-tilte">Kingster's Principle</h5>
-											<p>Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
-										</div>
-									</div>
+								<div class="icon-content">
+									<h5 class="ttr-tilte">Our Philosophy</h5>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod..</p>
 								</div>
-								<div class="col-lg-6 col-md-6 col-sm-6 m-b30">
-									<div class="feature-container">
-										<div class="feature-md text-white m-b20">
-											<a href="#" class="icon-cell"><img src="assets/images/icon/icon3.png" alt=""/></a> 
-										</div>
-										<div class="icon-content">
-											<h5 class="ttr-tilte">Key Of Success</h5>
-											<p>Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
-										</div>
-									</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
+							<div class="feature-container">
+								<div class="feature-md text-white m-b20">
+									<a href="#" class="icon-cell"><img src="assets/images/icon/icon2.png" alt=""/></a> 
 								</div>
-								<div class="col-lg-6 col-md-6 col-sm-6 m-b30">
-									<div class="feature-container">
-										<div class="feature-md text-white m-b20">
-											<a href="#" class="icon-cell"><img src="assets/images/icon/icon4.png" alt=""/></a> 
-										</div>
-										<div class="icon-content">
-											<h5 class="ttr-tilte">Our Philosophy</h5>
-											<p>Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
-										</div>
-									</div>
+								<div class="icon-content">
+									<h5 class="ttr-tilte">Kingster's Principle</h5>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod..</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
+							<div class="feature-container">
+								<div class="feature-md text-white m-b20">
+									<a href="#" class="icon-cell"><img src="assets/images/icon/icon3.png" alt=""/></a> 
+								</div>
+								<div class="icon-content">
+									<h5 class="ttr-tilte">Key Of Success</h5>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod..</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
+							<div class="feature-container">
+								<div class="feature-md text-white m-b20">
+									<a href="#" class="icon-cell"><img src="assets/images/icon/icon4.png" alt=""/></a> 
+								</div>
+								<div class="icon-content">
+									<h5 class="ttr-tilte">Our Philosophy</h5>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod..</p>
 								</div>
 							</div>
 						</div>
@@ -300,63 +191,27 @@
 				</div>
             </div>
 			<!-- About Us END ==== -->
-			<!-- Why Choose ==== -->
-			<div class="section-area bg-gray section-sp2 choose-bx">
+            <!-- Our Story ==== -->
+			<div class="section-area bg-gray section-sp1 our-story">
 				<div class="container">
-					<div class="row">
-						<div class="col-md-12 heading-bx text-center">
-							<h2 class="title-head text-uppercase m-b0">Why Choose <span> Our Institution</span></h2>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+					<div class="row align-items-center d-flex">
+						<div class="col-lg-5 col-md-12 heading-bx">
+							<h2 class="m-b10">Our Story</h2>
+							<h5 class="fw4">It is a long established fact that a reade.</h5>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+							<a href="#" class="btn">Read More</a>
 						</div>
-					</div>
-					<div class="row choose-bx-in">
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="service-bx">
-								<div class="action-box">
-									<img src="assets/images/our-services/pic1.jpg" alt="">
-								</div>
-								<div class="info-bx text-center">
-									<div class="feature-box-sm radius bg-white">
-										<i class="fa fa-bank text-primary"></i>
-									</div>
-									<h4><a href="#">Best Industry Leaders</a></h4>
-									<a href="#" class="btn radius-xl">View More</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="service-bx">
-								<div class="action-box">
-									<img src="assets/images/our-services/pic2.jpg" alt="">
-								</div>
-								<div class="info-bx text-center">
-									<div class="feature-box-sm radius bg-white">
-										<i class="fa fa-book text-primary"></i>
-									</div>
-									<h4><a href="#">Learn Courses Online</a></h4>
-									<a href="#" class="btn radius-xl">View More</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-12">
-							<div class="service-bx m-b0">
-								<div class="action-box">
-									<img src="assets/images/our-services/pic3.jpg" alt="">
-								</div>
-								<div class="info-bx text-center">
-									<div class="feature-box-sm radius bg-white">
-										<i class="fa fa-file-text-o text-primary"></i>
-									</div>
-									<h4><a href="#">Book Library & Store</a></h4>
-									<a href="#" class="btn radius-xl">View More</a>
-								</div>
+						<div class="col-lg-7 col-md-12 heading-bx p-lr">
+							<div class="video-bx">
+								<img src="assets/images/about/pic1.jpg" alt=""/>
+								<a href="https://www.youtube.com/watch?v=x_sJzVe9P_8" class="popup-youtube video"><i class="fa fa-play"></i></a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- Why Choose END ==== -->
-			<!-- Company Status ==== -->
+			<!-- Our Story END ==== -->
+			<!-- Our Status ==== -->
 			<div class="section-area content-inner section-sp1">
                 <div class="container">
                     <div class="section-content">
@@ -397,27 +252,23 @@
                     </div>
                 </div>
             </div>
-			<!-- Company Stats END ==== -->
-			<!-- Our Story ==== -->
-			<div class="section-area bg-gray section-sp1 our-story">
-				<div class="container">
-					<div class="row align-items-center d-flex">
-						<div class="col-lg-5 col-md-12 heading-bx">
-							<h2 class="m-b10">Our Story</h2>
-							<h5 class="fw4">It is a long established fact that a reade.</h5>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-							<a href="#" class="btn">Read More</a>
-						</div>
-						<div class="col-lg-7 col-md-12 heading-bx p-lr">
-							<div class="video-bx">
-								<img src="assets/images/about/pic1.jpg" alt=""/>
-								<a href="https://www.youtube.com/watch?v=x_sJzVe9P_8" class="popup-youtube video"><i class="fa fa-play"></i></a>
+			<!-- Our Status END ==== -->
+			<!-- About Content ==== -->
+			<div class="section-area section-sp2 bg-fix ovbl-dark join-bx text-center" style="background-image:url(assets/images/background/bg1.jpg);">
+                <div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="join-content-bx text-white">
+								<h2>Learn a new skill online on <br/> your time</h2>
+								<h4><span class="counter">57,000 </span> Online Courses</h4>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+								<a href="#" class="btn button-md">Join Now</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- Our Story END ==== -->
+			<!-- About Content END ==== -->
 			<!-- Testimonials ==== -->
 			<div class="section-area section-sp2">
 				<div class="container">
@@ -460,11 +311,11 @@
 				</div>
 			</div>
 			<!-- Testimonials END ==== -->
-        </div>
+		</div>
 		<!-- Page Content Box END ==== -->
     </div>
-	<!-- Page Content Box END ==== -->
-	<!-- Footer ==== -->
+    <!-- Inner Content Box END ==== -->
+    <!-- Footer ==== -->
     <footer>
         <div class="footer-top">
 			<div class="pt-exebar">
@@ -564,13 +415,13 @@
         <div class="footer-bottom">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 text-center"> <a target="_blank" href="https://www.templateshub.net">Templates Hub</a></div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center"><a target="_blank" href="https://www.templateshub.net">Templates Hub</a></div>
                 </div>
             </div>
         </div>
     </footer>
     <!-- Footer END ==== -->
-    <button class="back-to-top fa fa-chevron-up" ></button>
+    <button class="back-to-top fa fa-chevron-up"></button>
 </div>
 <!-- External JavaScripts -->
 <script src="assets/js/jquery.min.js"></script>
@@ -589,5 +440,6 @@
 <script src="assets/js/contact.js"></script>
 <script src='assets/vendors/switcher/switcher.js'></script>
 </body>
+
 
 </html>

@@ -62,13 +62,13 @@
 					<h2 class="title-head">Login to your <span>Account</span></h2>
 					<p>Don't have an account? <a href="register.php">Create one here</a></p>
 				</div>	
-				<form class="contact-bx">
+				<form class="contact-bx" method="POST" action="loginLogic.php">
 					<div class="row placeani">
 						<div class="col-lg-12">
 							<div class="form-group">
 								<div class="input-group">
-									<label>Your Name</label>
-									<input name="dzName" type="text" required="" class="form-control">
+									<label>Your Email</label>
+									<input name="email" type="email" required="" class="form-control">
 								</div>
 							</div>
 						</div>
@@ -76,7 +76,15 @@
 							<div class="form-group">
 								<div class="input-group"> 
 									<label>Your Password</label>
-									<input name="dzEmail" type="password" class="form-control" required="">
+									<input name="password" type="password" class="form-control" required="">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="form-group">
+								<div class="input-group"> 
+									<label>Confirm Password</label>
+									<input name="confirm_password" type="password" class="form-control" required="">
 								</div>
 							</div>
 						</div>
