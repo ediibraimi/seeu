@@ -99,12 +99,7 @@ if(isset($_SESSION['FullName'])) {
       <div class="position-sticky pt-3">
         <ul class="nav flex-column">
          
-            <li class="nav-item">
-              <a class="nav-link" href="home.php">
-                <span data-feather="file"></span>
-                Home
-              </a>
-            </li>
+            
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="index.php">
               <span data-feather="home"></span>
@@ -112,8 +107,10 @@ if(isset($_SESSION['FullName'])) {
             </a>
           </li>
           
-        </ul>
         
+        
+          
+        </ul>
       
 
         
@@ -158,7 +155,7 @@ if(isset($_SESSION['FullName'])) {
                 <td><?php echo $user_data['city']; ?></td>
                 <td><?php echo $user_data['state']; ?></td>
 				<td><?php echo $user_data['Postcode']; ?></td>
-                <td><a href="EditTeachers.php">Update</a></td>
+                <td><a href="EditTeachers.php?id=<?= $user_data['id'];?>">Update</a></td>
                 <td><a href="deleteTeacher.php?id=<?= $user_data['id'];?>">Delete</a></td>
               </tr>
               
