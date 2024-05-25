@@ -9,7 +9,7 @@
 					<li>
 						<a href="index.php" class="ttr-material-button">
 							<span class="ttr-icon"><i class="ti-home"></i></span>
-		                	<span class="ttr-label">Dashborad</span>
+		                	<span class="ttr-label">Dashboard</span>
 		                </a>
 		            </li>
 					<li>
@@ -19,6 +19,19 @@
 		                </a>
 		            </li>
 					
+					
+					<li>
+						<a href="bookmark.php" class="ttr-material-button">
+							<span class="ttr-icon"><i class="ti-bookmark-alt"></i></span>
+		                	<span class="ttr-label">Bookmarks</span>
+		                </a>
+		            </li>
+					<li>
+						<a href="review.php" class="ttr-material-button">
+							<span class="ttr-icon"><i class="ti-comments"></i></span>
+		                	<span class="ttr-label">Review</span>
+		                </a>
+		            </li>
 					<li>
 						<a href="#" class="ttr-material-button">
 							<span class="ttr-icon"><i class="ti-calendar"></i></span>
@@ -34,19 +47,6 @@
 		                	</li>
 		                </ul>
 		            </li>
-					<li>
-						<a href="bookmark.php" class="ttr-material-button">
-							<span class="ttr-icon"><i class="ti-bookmark-alt"></i></span>
-		                	<span class="ttr-label">Bookmarks</span>
-		                </a>
-		            </li>
-					<li>
-						<a href="review.php" class="ttr-material-button">
-							<span class="ttr-icon"><i class="ti-comments"></i></span>
-		                	<span class="ttr-label">Review</span>
-		                </a>
-		            </li>
-					
 					<li>
 						<a href="#" class="ttr-material-button">
 							<span class="ttr-icon"><i class="ti-user"></i></span>
