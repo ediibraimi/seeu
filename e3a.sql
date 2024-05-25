@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 25, 2024 at 09:42 PM
--- Server version: 10.4.28-MariaDB
--- PHP Version: 8.2.4
+-- Generation Time: May 26, 2024 at 12:33 AM
+-- Server version: 10.4.32-MariaDB
+-- PHP Version: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -52,6 +52,28 @@ CREATE TABLE `course` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `memberships`
+--
+
+CREATE TABLE `memberships` (
+  `id` int(11) NOT NULL,
+  `course_name` varchar(100) NOT NULL,
+  `price` decimal(10,2) NOT NULL,
+  `description` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `memberships`
+--
+
+INSERT INTO `memberships` (`id`, `course_name`, `price`, `description`) VALUES
+(1, 'Programming', 100.00, 'TEst test'),
+(2, 'Design', 200.00, 'Test'),
+(3, 'Test', 400.00, 'Test');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `physst`
 --
 
@@ -61,6 +83,14 @@ CREATE TABLE `physst` (
   `surname` varchar(255) NOT NULL,
   `major` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `physst`
+--
+
+INSERT INTO `physst` (`id`, `name`, `surname`, `major`) VALUES
+(1, 'aa', 'aa', 'aa'),
+(2, 'qq', 'qq', 'qq');
 
 -- --------------------------------------------------------
 
@@ -74,6 +104,14 @@ CREATE TABLE `progst` (
   `surname` varchar(255) NOT NULL,
   `major` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `progst`
+--
+
+INSERT INTO `progst` (`id`, `name`, `surname`, `major`) VALUES
+(1, 'abc', 'abc', 'aa'),
+(2, 'ac', 'ac', 'ac');
 
 -- --------------------------------------------------------
 
@@ -126,7 +164,8 @@ INSERT INTO `users` (`id`, `name`, `email`, `username`, `password`, `confirm_pas
 (2, 'andet', 'a@gmail.com', 'andett', '$2y$10$RZsjhR.TVy70SkzgqN79xOZCZOYkY/sO0hOOF4wbjRoxKdCXGMTt6', '', ''),
 (3, 'Mark John', 'mj@gmail.com', 'MJ1', '$2y$10$ClYuLOsMzeoXkg7t95wMBuFdDzKRnj5meDTXDkGEBFR9836jGQhuC', '', ''),
 (4, 'besar idrizi', 'besar@gmail.com', 'besar', '$2y$10$dP2BPKZt55ZxkWj7WgFfTOF6y47XK919Jls1EiAucBz0eO1033sla', '', ''),
-(5, 'agon kamberi', 'a@gmail.com', 'agonBISHA', '$2y$10$8FuvDP69KwlvDQFbSvpF8eTLRBvye6HG7fHSermBTQGz1Orh/feey', '', '');
+(5, 'agon kamberi', 'a@gmail.com', 'agonBISHA', '$2y$10$8FuvDP69KwlvDQFbSvpF8eTLRBvye6HG7fHSermBTQGz1Orh/feey', '', ''),
+(6, 'abc', 'test@test.com', '11', '$2y$10$op153U/chvCSJpksDLA3cOCT4vsPRPq4FxJl6.kr.RZ1VBh3J3tZm', '', '');
 
 --
 -- Indexes for dumped tables
@@ -142,6 +181,12 @@ ALTER TABLE `chemst`
 -- Indexes for table `course`
 --
 ALTER TABLE `course`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `memberships`
+--
+ALTER TABLE `memberships`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -185,16 +230,22 @@ ALTER TABLE `course`
   MODIFY `id` int(12) NOT NULL AUTO_INCREMENT;
 
 --
+-- AUTO_INCREMENT for table `memberships`
+--
+ALTER TABLE `memberships`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
 -- AUTO_INCREMENT for table `physst`
 --
 ALTER TABLE `physst`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `progst`
 --
 ALTER TABLE `progst`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `teacher_profile`
@@ -206,7 +257,7 @@ ALTER TABLE `teacher_profile`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
