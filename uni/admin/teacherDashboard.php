@@ -145,7 +145,7 @@ if(isset($_SESSION['FullName'])) {
                 <td><?php echo $user_data['city']; ?></td>
                 <td><?php echo $user_data['state']; ?></td>
 				<td><?php echo $user_data['Postcode']; ?></td>
-                <td><a href="EditTeachers.php?id=">Update</a></td>
+                <td><a href="EditTeachers.php?id=<?= $user_data['id'];?>">Update</a></td>
                 <td><a href="deleteTeacher.php?id=<?= $user_data['id'];?>">Delete</a></td>
               </tr>
               
