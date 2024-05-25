@@ -3,9 +3,7 @@
 
     include_once('config.php');
 
-    if(empty($_SESSION['username'])) {
-        header("Location: login.php");
-    }
+    
 
     $sql = "SELECT * FROM course"; // corrected table name
 
