@@ -161,14 +161,22 @@
 									<div class="form-group col-6">
 										<label class="col-form-label">Company Name</label>
 										<div>
+<<<<<<< HEAD
+											<input class="form-control" name="Company_Name" type="text" >
+=======
 											<input class="form-control" name="Company_Name" type="text">
+>>>>>>> 7983a48b826d82da29cfdb69a1d12e8ce6a4f823
 											<span class="help">If you want your invoices addressed to a company. Leave blank to use your full name.</span>
 										</div>
 									</div>
 									<div class="form-group col-6">
 										<label class="col-form-label">Phone No.</label>
 										<div>
+<<<<<<< HEAD
+											<input class="form-control" name="PhoneNum" type="text" >
+=======
 											<input class="form-control" name="PhoneNum" type="text">
+>>>>>>> 7983a48b826d82da29cfdb69a1d12e8ce6a4f823
 										</div>
 									</div>
 									
@@ -200,7 +208,11 @@
 									<div class="form-group col-6">
 										<label class="col-form-label">Postcode</label>
 										<div>
+<<<<<<< HEAD
+											<input class="form-control" name="Postcode" type="text" >
+=======
 											<input class="form-control" name="Postcode" type="text">
+>>>>>>> 7983a48b826d82da29cfdb69a1d12e8ce6a4f823
 										</div>
 									</div>
 

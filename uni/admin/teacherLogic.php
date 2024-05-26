@@ -37,7 +37,7 @@ if (
 
     if ($insertUser->execute()) {
         echo "New user created successfully";
-        header('Location: index.php');
+        header('Location: teacherDashboard.php');
         exit;
     } else {
         echo "Error: Unable to execute the query.";
