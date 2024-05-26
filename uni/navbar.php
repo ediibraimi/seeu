@@ -41,7 +41,7 @@
 					<ul>
 						<li><a href="courses.php">Courses </a></li>
 						<li><a href="courses-details.php">Courses Details</a></li>
-						<li><a href="profile.php">Instructor Profile</a></li>
+						
 						<li><a href="event.php">Upcoming Event</a></li>
 						<li><a href="membership.php">Scholarships</a></li>
 					</ul>
