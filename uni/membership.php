@@ -166,6 +166,7 @@
 										while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
 											$price = $row["price"];
 											$description = $row["description"];
+											$cursenamee = $row["course_name"];
 											?>
 											<div class="col-sm-12 col-md-4 col-lg-4 m-b40 ">
 												<div class="pricingtable-wrapper">
@@ -177,7 +178,7 @@
 																<span class="pricingtable-type">Semester</span>
 															</div>
 															<div class="pricingtable-title">
-																<h2>Programming</h2>
+																<h2><?php echo $cursenamee; ?></p></h2>
 																<p><?php echo $description; ?></p>
 															</div>
 														</div>
