@@ -77,7 +77,7 @@
 if(isset($_SESSION['FullName'])) {
     echo "Welcome to the dashboard ";
 } else {
-    echo "Welcome to the dashboard";
+  echo "Welcome Teacher";
 }
 ?>
 
@@ -102,8 +102,8 @@ if(isset($_SESSION['FullName'])) {
             
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="index.php">
-              <span data-feather="home"></span>
-              Dashboard
+              <span data-feather="home"> <a href="index.php"></a></span>
+            Back Home
             </a>
           </li>
           
