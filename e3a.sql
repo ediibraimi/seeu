@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 26, 2024 at 12:33 AM
--- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+-- Generation Time: May 26, 2024 at 11:15 AM
+-- Server version: 10.4.28-MariaDB
+-- PHP Version: 8.0.28
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -48,6 +48,20 @@ CREATE TABLE `course` (
   `review` tinyint(5) NOT NULL,
   `price` int(12) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `course`
+--
+
+INSERT INTO `course` (`id`, `image`, `title`, `category`, `review`, `price`) VALUES
+(3, 'pic1.jpg', 'The web Development Bootcamp 2024 ', 'Programming', 5, 99),
+(4, 'pic2.jpg', 'Digital Marketing Course', 'Marketing', 2, 19),
+(5, 'pic3.jpg', 'Machine Learning for Beginners', 'Artificial Intelligence', 5, 59),
+(6, 'pic4.jpg', 'The Complete Python Bootcamp ', 'Programming', 3, 99),
+(7, 'pic6.jpg', 'Graphic Design Masterclass', 'Graphic Design', 5, 79),
+(8, 'pic7.jpg', 'The Complete Cyber Security Course', 'Cyber Security', 4, 49),
+(9, 'pic9.jpg', 'Introduction To Fiber Optic Cabling', 'IT & Software', 1, 19),
+(10, 'pic8.jpg', 'Learn Ethical Hacking From Scratch 2024', 'IT & Software', 4, 99);
 
 -- --------------------------------------------------------
 
@@ -227,7 +241,7 @@ ALTER TABLE `chemst`
 -- AUTO_INCREMENT for table `course`
 --
 ALTER TABLE `course`
-  MODIFY `id` int(12) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `memberships`
