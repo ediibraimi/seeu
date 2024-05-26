@@ -59,7 +59,7 @@
 				<div class="row d-flex justify-content-between">
 					<div class="topbar-left">
 						<ul>
-							<li><a href="faq-1.php"><i class="fa fa-question-circle"></i>Ask a Question</a></li>
+							<li><a href="faq.php"><i class="fa fa-question-circle"></i>Ask a Question</a></li>
 							<li><a href="javascript:;"><i class="fa fa-envelope-o"></i>Support@website.com</a></li>
 						</ul>
 					</div>
@@ -465,7 +465,7 @@
 									<ul>
 										<li><a href="index.php">Home</a></li>
 										<li><a href="about-1.php">About</a></li>
-										<li><a href="faq-1.php">FAQs</a></li>
+										<li><a href="faq.php">FAQs</a></li>
 										<li><a href="contact-1.php">Contact</a></li>
 									</ul>
 								</div>
