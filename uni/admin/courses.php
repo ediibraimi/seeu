@@ -311,8 +311,10 @@
                     <p>Lorem ipsum dolor sit amet, est ei idque voluptua copiosae, pro detracto disputando reformidans at, ex vel suas eripuit. Vel alii zril maiorum ex, mea id sale eirmod epicurei. Sit te possit senserit, eam alia veritus maluisset ei, id cibo vocent ocurreret per. Te qui doming doctus referrentur, usu debet tamquam et. Sea ut nullam aperiam, mei cu tollit salutatus delicatissimi. </p>	
                 </div>
                 <div class="col-md-12">
-                    <a href="/seeu/uni/editCourse.php" class="btn green radius-xl outline">Edit</a>
-                    <a href="/seeu/uni/deleteCourse.php" class="btn red outline radius-xl ">Delete</a>
+					<td> <a href="/seeue/uni/editCourse.php?id=<?= $course['id']; ?>" class="btn btn-info">Edit</a> </td>
+					<td> <a href="/seeu/uni/deleteCourse.php?id=<?= $course['id']; ?>" class="btn btn-danger">Delete</a> </td>
+
+
                 </div>
             </div>
         </div>
