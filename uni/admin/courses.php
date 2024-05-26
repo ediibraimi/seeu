@@ -258,7 +258,7 @@
 						<div class="wc-title">
 							<h4>Your Courses</h4>
 							<br>
-							<a href="/seeu/uni/course.php">View your courses</a>
+							<a href="../course.php">View your courses</a>
 
 						</div>
 						<div class="widget-inner">
@@ -348,6 +348,6 @@
 <script src="assets/js/admin.js"></script>
 <script src='assets/vendors/switcher/switcher.js'></script>
 </body>
-
+<!-- // -->
 <!-- Mirrored from educhamp.themetrades.com/demo/admin/courses.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 22 Feb 2019 13:11:35 GMT -->
 </html>
