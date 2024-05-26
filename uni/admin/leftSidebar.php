@@ -20,12 +20,7 @@
 		            </li>
 					
 					
-					<li>
-						<a href="bookmark.php" class="ttr-material-button">
-							<span class="ttr-icon"><i class="ti-bookmark-alt"></i></span>
-		                	<span class="ttr-label">Bookmarks</span>
-		                </a>
-		            </li>
+					
 					<li>
 						<a href="review.php" class="ttr-material-button">
 							<span class="ttr-icon"><i class="ti-comments"></i></span>
@@ -33,19 +28,11 @@
 		                </a>
 		            </li>
 					<li>
-						<a href="#" class="ttr-material-button">
+						<a href="basic-calendar.php" class="ttr-material-button">
 							<span class="ttr-icon"><i class="ti-calendar"></i></span>
 		                	<span class="ttr-label">Calendar</span>
-		                	<span class="ttr-arrow-icon"><i class="fa fa-angle-down"></i></span>
 		                </a>
-		                <ul>
-		                	<li>
-		                		<a href="basic-calendar.php" class="ttr-material-button"><span class="ttr-label">Calendar</span></a>
-		                	</li>
-		                	<li>
-		                		<a href="list-view-calendar.php" class="ttr-material-button"><span class="ttr-label">List View</span></a>
-		                	</li>
-		                </ul>
+		                
 		            </li>
 					<li>
 						<a href="#" class="ttr-material-button">
