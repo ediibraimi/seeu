@@ -155,20 +155,20 @@
 									<div class="form-group col-6">
 										<label class="col-form-label">Occupation</label>
 										<div>
-											<input name="occupation" class="form-control" type="text" value="CTO">
+											<input name="occupation" class="form-control" type="text" >
 										</div>
 									</div>
 									<div class="form-group col-6">
 										<label class="col-form-label">Company Name</label>
 										<div>
-											<input class="form-control" name="Company_Name" type="text" value="EduChamp">
+											<input class="form-control" name="Company_Name" type="text">
 											<span class="help">If you want your invoices addressed to a company. Leave blank to use your full name.</span>
 										</div>
 									</div>
 									<div class="form-group col-6">
 										<label class="col-form-label">Phone No.</label>
 										<div>
-											<input class="form-control" name="PhoneNum" type="text" value="PhoneNum">
+											<input class="form-control" name="PhoneNum" type="text">
 										</div>
 									</div>
 									
@@ -182,25 +182,25 @@
 									<div class="form-group col-6">
 										<label class="col-form-label">Address</label>
 										<div>
-											<input class="form-control" name="addres" type="text" value="5-S2-20 Dummy City, UK">
+											<input class="form-control" name="addres" type="text" >
 										</div>
 									</div>
 									<div class="form-group col-6">
 										<label class="col-form-label">City</label>
 										<div>
-											<input class="form-control" name="city" type="text" value="US">
+											<input class="form-control" name="city" type="text" >
 										</div>
 									</div>
 									<div class="form-group col-6">
 										<label class="col-form-label">State</label>
 										<div>
-											<input class="form-control" name="state" type="text" value="California">
+											<input class="form-control" name="state" type="text" >
 										</div>
 									</div>
 									<div class="form-group col-6">
 										<label class="col-form-label">Postcode</label>
 										<div>
-											<input class="form-control" name="Postcode" type="text" value="000702">
+											<input class="form-control" name="Postcode" type="text">
 										</div>
 									</div>
 
