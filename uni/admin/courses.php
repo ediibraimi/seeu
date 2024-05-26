@@ -258,7 +258,7 @@
 						<div class="wc-title">
 							<h4>Your Courses</h4>
 							<br>
-							<a href="/seeu/uni/course.php">View your courses</a>
+							<a href="../course.php">View your courses</a>
 
 						</div>
 						<div class="widget-inner">
