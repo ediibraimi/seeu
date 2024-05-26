@@ -7,5 +7,5 @@ $prep = $conn->prepare($sql);
 $prep->bindParam(':id', $id);
 $prep->execute();
 
-header("Location: course.php");
+header("Location: courses.php");
 ?>
