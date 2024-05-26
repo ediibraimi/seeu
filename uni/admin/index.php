@@ -23,6 +23,13 @@ $stmt2->execute();
 $row2 = $stmt2->fetch();
 $totalusers = $row2['users'];
 /////
+////
+$querycourses = "SELECT count(*) course FROM `course`;";
+$stmt3 = $conn->prepare($querycourses);
+$stmt3->execute();
+$row3 = $stmt3->fetch();
+$totalcourses = $row3['course'];
+/////
 ?>
 
 
@@ -178,7 +185,7 @@ $totalusers = $row2['users'];
 								Total Profit
 							</h4> -->
 							<span class="wc-des">
-								All Customs Value
+								Total profit
 							</span>
 							<span class="wc-stats">
 								$<span class="counter"><?php echo $totalPrice ?></span>
@@ -201,13 +208,13 @@ $totalusers = $row2['users'];
 					<div class="widget-card widget-bg2">
 						<div class="wc-item">
 							<h4 class="wc-title">
-								New Feedbacks
-							</h4>
+							Total Courses							
+						</h4>
 							<span class="wc-des">
 								Customer Review
 							</span>
 							<span class="wc-stats counter">
-								120
+							<?php echo $totalcourses ?>
 							</span>
 							<div class="progress wc-progress">
 								<div class="progress-bar" role="progressbar" style="width: 88%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
@@ -227,7 +234,7 @@ $totalusers = $row2['users'];
 					<div class="widget-card widget-bg3">
 						<div class="wc-item">
 							<h4 class="wc-title">
-								New Orders
+								Proffesors
 							</h4>
 							<span class="wc-des">
 								Fresh Order Amount

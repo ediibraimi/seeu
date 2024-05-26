@@ -88,7 +88,7 @@ if(isset($_SESSION['FullName'])) {
  
   <div class="navbar-nav">
     <div class="nav-item text-nowrap">
-      <a class="nav-link px-3" href="logout.php">Sign out</a>
+      <a class="nav-link px-3" href="../logout.php">Sign out</a>
     </div>
   </div>
 </header>
@@ -102,8 +102,8 @@ if(isset($_SESSION['FullName'])) {
             
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="index.php">
-              <span data-feather="home"> <a href="index.php"></a></span>
-            Back Home
+              <span data-feather="home"> <a href="index.php"> Back Home</a></span>
+           
             </a>
           </li>
           
